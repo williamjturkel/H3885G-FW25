@@ -5,4 +5,4 @@
 Professor William J. Turkel <br/>
 Department of History, The University of Western Ontario
 
-- [Resources](<./Resources/README.md>)
+- [Resources](<./Resources>)
