@@ -127,9 +127,8 @@ Individual submission, to be uploaded to OWL Brightspace
 
 ## Pedagogical Focus: Why We Do This
 
-|   |   |   |
-|---|---|---|
 |**Component**|**Pedagogical Goal**|**Why it Matters**|
+|---|---|---|
 |**Team Corpus (A01)**|Forces **methodological resource creation**.|You must be able to **create** the digital source collections you study.|
 |**Individual Persona Critique**|Tests the ability to **constrain the agent**.|Critical research requires **predictable output**, not general chat.|
 |**Referring/Citations**|Reinforces the **scholarly imperative** of verification.|Grounding is the foundation for all subsequent **Representing** and **Comparing** tasks.|
