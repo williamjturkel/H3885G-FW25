@@ -61,6 +61,7 @@ Between our first and second class meetings, your **team** has to do the followi
 
 1. **Constrained Search:** Use Gemini Advanced / Deep Research to find high-quality, long-form content.
     - **Prompt Example:** "Provide a list of 10 publicly available URLs for digitized Official Military Records from the Vietnam War period (1964-1975) from reputable archives or university collections. Focus on long PDF or text documents."
+    - **Course Resources:** The [Resources](<../Resources>) section of this site contains some starting points with high-quality materials.
 2. **Harvest URLs & Deep Research**:
     - Collect the 10 most relevant URLs provided by Gemini.
     - Use the **URL-loading feature** in the Gemini interface to ask Gemini to summarize and extract entities from each URL. This ensures the document is readable by the AI later.
