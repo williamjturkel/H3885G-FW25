@@ -21,17 +21,17 @@ Each team has a choice of creating <u>one</u> of two sub-topics to build their i
   - **Official Military Records**: Declassified government reports, field operations summaries, casualty counts.
   - **Digital Photo Captions/Metadata**: Focusing on the textual context of iconic photos.
 - 1B
-  - **Newspaper Editorials (US Perspective)**: Analysis of major US paper opinions (1965-1970)
+  - **Newspaper Editorials (US Perspective)**: Analysis of major US paper opinions (1965-1970).
   - **Music Lyrics (Pro- and Anti-War)**: Transcriptions and analysis of popular songs.
 - 1C
-  - **Congressional Hearing Transcripts**: Debates and testimony regarding funding and policy
+  - **Congressional Hearing Transcripts**: Debates and testimony regarding funding and policy.
   - **Anti-War Movement Pamphlets**: Texts from student groups, activist organizations, and protest flyers.
 - 1D
   - **Official Casualty Reports/Statistics**: Structured data files (CSV, simple tables) detailing troop movements, injuries, and fatalities.
   - **Contemporary Media Reviews/Criticism**: Reviews of films, books, and art about the war (1980s-1990s).
 - 1E
   - **Academic Historical Monographs (Snippets)**: Sampling of secondary source arguments and literature reviews.
-  - **Visual Art & Photography Captions**: Focusing on the textual analysis of museum captions, exhibit descriptions, and critical reviews of wartime photography and art, linking text to image
+  - **Visual Art & Photography Captions**: Focusing on the textual analysis of museum captions, exhibit descriptions, and critical reviews of wartime photography and art, linking text to image.
 - 1F
   - **Propaganda Texts**: Texts aimed at North Vietnamese, South Vietnamese, or US troops.
   - **Veteran Oral Histories**: Transcripts of interviews from different service branches and experiences.
