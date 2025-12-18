@@ -115,4 +115,6 @@ Table activities give you a chance to work with one or two other people and figu
 
 # Assignment 01 Overview
 
+- [Assignment Page](<../A01>)
+
 # Any questions?
