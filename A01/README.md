@@ -17,25 +17,25 @@ I will monitor your team's space to assess your teamwork. Since this is part of 
 
 Each team has a choice of creating <u>one</u> of two sub-topics to build their initial corpus. Here are your options
 
-- 1A
+- **1A**
   - **Official Military Records**: Declassified government reports, field operations summaries, casualty counts.
   - **Digital Photo Captions/Metadata**: Focusing on the textual context of iconic photos.
-- 1B
+- **1B**
   - **Newspaper Editorials (US Perspective)**: Analysis of major US paper opinions (1965-1970).
   - **Music Lyrics (Pro- and Anti-War)**: Transcriptions and analysis of popular songs.
-- 1C
+- **1C**
   - **Congressional Hearing Transcripts**: Debates and testimony regarding funding and policy.
   - **Anti-War Movement Pamphlets**: Texts from student groups, activist organizations, and protest flyers.
-- 1D
+- **1D**
   - **Official Casualty Reports/Statistics**: Structured data files (CSV, simple tables) detailing troop movements, injuries, and fatalities.
   - **Contemporary Media Reviews/Criticism**: Reviews of films, books, and art about the war (1980s-1990s).
-- 1E
+- **1E**
   - **Academic Historical Monographs (Snippets)**: Sampling of secondary source arguments and literature reviews.
   - **Visual Art & Photography Captions**: Focusing on the textual analysis of museum captions, exhibit descriptions, and critical reviews of wartime photography and art, linking text to image.
-- 1F
+- **1F**
   - **Propaganda Texts**: Texts aimed at North Vietnamese, South Vietnamese, or US troops.
   - **Veteran Oral Histories**: Transcripts of interviews from different service branches and experiences.
-- 1G
+- **1G**
   - **Post-War Policy/Treaty Texts**: Documents related to the aftermath and refugee crisis (1975-1980).
   - **Personal Soldier Letters/Diaries**: Digitized collections of letters home from the front lines.
  
@@ -110,21 +110,21 @@ Between our second and third class meetings **each individual student** has to d
 Team submission, to be uploaded to OWL Brightspace along with your individual assignment:
 
 - All documents may contain your TEAMNAME (e.g., 1A) but should not contain any other identifying information (_do not include your names or Gmail addresses_). This is to protect your privacy when the contents of the files are uploaded to AI tools.
-- TEAMNAME-SCOPE.pdf
+- **_TEAMNAME-SCOPE.pdf_**
     - Statement describing the scope of your collection
-- TEAMNAME-SOURCES.csv
+- **_TEAMNAME-SOURCES.csv_**
     - Google Sheets file saved as CSV containing source metadata (Title, Author, Date, etc.)
-- TEAMNAME-BRIEFING.pdf
+- **_TEAMNAME-BRIEFING.pdf_**
 
 ### All Students
 
 Individual submission, to be uploaded to OWL Brightspace
 
 - All document filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself. This is to protect your privacy when the contents of the files are uploaded to AI tools.
-- LASTNAME-FIRSTNAME-AI-ANSWERS.pdf
+- **_LASTNAME-FIRSTNAME-AI-ANSWERS.pdf_**
     - Collect all three answers in a single document
     - Give each answer a title which reflects the Persona that generated it
-- LASTNAME-FIRSTNAME-ESSAY.pdf
+- **_LASTNAME-FIRSTNAME-ESSAY.pdf_**
 
 ## Pedagogical Focus: Why We Do This
 
