@@ -43,9 +43,11 @@ When you come across unfamiliar terms, ask me or Google them.
 - Google Workspace (Supports Teamwork and Creation of Scholarly Products):
     - **Function: Collaboration and Output**. Google Docs, Slides (via Gemini Canvas), Sheets, Chat and Meet.
  
-# Activity 1: Generating Code-Free Prototypes (20 Min)
+# Activity 1: Generating Code-Free Prototypes (25 Min)
 
 ## Table Activity: Vibe Coding
+
+Table activities give you a chance to work with one or two other people and figure things out together.
 
 - **Task**: Use Vibe Coding to generate a functional web app without typing code.
 - **Instructions**:
@@ -78,5 +80,25 @@ When you come across unfamiliar terms, ask me or Google them.
 - **Insight**: Your natural language instruction (the prompt) is the new programming interface.
 - **The Scholarly Challenge**: General, conversational language produces unpredictable results. To control our agent with scholarly rigor, we must define the rules using **System Instructions**—our focus next week.
 
+# Grounding: The Methodological Imperative
 
-    
+## Why We MUST Control the AI's Knowledge
+
+- **The Problem**: Unconstrained LLMs tend to "hallucinate" (invent facts, sources, or details). This is fatal to academic research. 
+- **Solution: Grounding**: We force the AI to use only the specific knowledge we provide (e.g., a document corpus) rather than its vast, general training data.
+- **Scholarly Primitive: Referring**: Grounding is the technical mechanism for guaranteeing traceability and citation.
+
+> _User Query + General LLM &rarr; Answer (No Source)_<br/>
+> _User Query + NotebookLM (Grounded) &rarr; Answer + Source Citation (Referring is Achieved)_
+
+# Activity 2: Testing Generality vs. Specificity (25 Min)
+
+## Table Activity: Compare Unguided vs. Grounded Answers
+
+- **Objective**: Visually demonstrate the value of grounding.
+- **Step 1 (Unguided)**: Ask the **general Gemini interface** a complex question related to the Vietnam War: "What was the role of the press in the Tet Offensive?"
+- **Step 2 (Grounded)**: 
+  - Open [NotebookLM](https://notebooklm.google.com/)
+  - Create a new notebook and upload the following source Clarence R. Wyatt, ["The American Press in Vietnam"](https://journals.lib.unb.ca/index.php/JCS/article/download/14854/15923/19642) _Conflict Quarterly_ (1989).
+  - Ask the same question to your NotebookLM interface, which is grounded on this single PDF source.
+- **Goal**: Note and discuss the differences in tone, detail, and citation.
