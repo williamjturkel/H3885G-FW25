@@ -1,6 +1,6 @@
 # Wk 02. Research Agent Persona & Grounding
 
-**Scholarly Primitive: Referring** (Traceability and Citation). **Goal**: Learn how to use System Instructions to guarantee verifiable research output.
+Defining the computational essay. Introducing **NotebookLM** for synthesis. Using **System Instructions** to establish the AI's role and achieve **Referring** (Source Grounding).
 
 # The Hallucination Trade-Off
 
