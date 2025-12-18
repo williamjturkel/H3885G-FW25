@@ -90,7 +90,7 @@ Between our second and third class meetings **each individual student** has to d
 - **Input**: Use your team’s shared NotebookLM corpus.
 - **Procedure**:
     1. Formulate one **complex research question** for the corpus.
-    2. Design **three distinct System Instructions (Personas)** (e.g., "Skeptical Historian," "Anti-War Journalist," "Policy Analyst").
+    2. Design **three distinct System Instructions (Personas)** (e.g., "Skeptical Historian," "Anti-War Journalist," "Policy Analyst"). These personas should make sense for your team's sub-topic.
     3. Run the **same research question** three times, applying a different persona each time.
     4. Save each of the three raw AI-generated answers
  
