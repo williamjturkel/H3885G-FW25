@@ -42,8 +42,10 @@ When you come across unfamiliar terms, ask me or Google them.
     - **Scholarly Primitive: Sampling, Representing**.
 - Google Workspace (Supports Teamwork and Creation of Scholarly Products):
     - **Function: Collaboration and Output**. Google Docs, Slides (via Gemini Canvas), Sheets, Chat and Meet.
- 
-# Activity 1: Generating Code-Free Prototypes (25 Min)
+
+To use all of the course tools, you are going to need a Gmail account if you do not already have one. Please email me your Gmail address right now if you haven't already.
+
+# Activity 1: Generating Code-Free Prototypes (30 Min)
 
 ## Table Activity: Vibe Coding
 
@@ -91,7 +93,7 @@ Table activities give you a chance to work with one or two other people and figu
 > _User Query + General LLM &rarr; Answer (No Source)_<br/>
 > _User Query + NotebookLM (Grounded) &rarr; Answer + Source Citation (Referring is Achieved)_
 
-# Activity 2: Testing Generality vs. Specificity (25 Min)
+# Activity 2: Testing Generality vs. Specificity (30 Min)
 
 ## Table Activity: Compare Unguided vs. Grounded Answers
 
@@ -102,3 +104,15 @@ Table activities give you a chance to work with one or two other people and figu
   - Create a new notebook and upload the following source Clarence R. Wyatt, ["The American Press in Vietnam"](https://journals.lib.unb.ca/index.php/JCS/article/download/14854/15923/19642) _Conflict Quarterly_ (1989).
   - Ask the same question to your NotebookLM interface, which is grounded on this single PDF source.
 - **Goal**: Note and discuss the differences in tone, detail, and citation.
+
+# Debrief: The Hallucination Problem
+
+## The Human as the Final Verifier
+
+- **Key Outcome**: The **Grounded** response should be more conservative, more specific, and always point directly back to the source document.
+- **Core Takeaway**: You must become the **curator, verifier, and guarantor** of the AI's output. The AI is a powerful assistant, not a truth machine.
+- **Next Step**: We use **System Instructions** next week to formally define the agent's role (e.g., "You are a skeptical historical editor who must cite every fact.") to prevent hallucination.
+
+# Assignment 01 Overview
+
+# Any questions?
