@@ -26,7 +26,20 @@ Defining the computational essay. Introducing **NotebookLM** for synthesis. Usin
     - **Constraint**: What must the agent _always_ do (e.g., "Limit output to 500 words.").
     - **Style/Tone**: How must the agent communicate (e.g., "Use skeptical, academic language.").
  
-# Activity 1: Defining the Critical Persona (20 Min)
+# Activity 1: Deconstructing System Instructions (20 Min)
 
-## Table Activity: The Skeptical Historian
+## Table Activity: Defining the Critical Persona
 
+- **Task**: As a group, draft the ultimate System Instruction to create a "Skeptical Historical Editor" Persona for NotebookLM.
+- **Constraints that MUST be included**:
+    - **Citation Mandate**: Must cite the NotebookLM source for every factual claim.
+    - **Source Preference**: Must prioritize archival sources over secondary summaries.
+    - **Verification**: Must explicitly flag any contradictory evidence found in the corpus.
+- **Output**: A single, clean, 1-paragraph system instruction.
+
+# Debrief: System Instruction Quality
+
+## What Makes a Persona Robust?
+
+- **Weak Instruction**: "Be a good historian and write an essay." (Too vague).
+- **Strong Instruction**: "**Role**: You are a critical editor. **Constraint**: You must use inline citations (Source Title, page number) for all claims. If a claim cannot be verified in the sources, you must state: `UNVERIFIABLE`. **Tone**: Formal, objective, and analytical." (Actionable).
