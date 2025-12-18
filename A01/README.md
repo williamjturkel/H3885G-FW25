@@ -68,7 +68,7 @@ Between our first and second class meetings, your **team** has to do the followi
     - For any relevant web pages (not PDFs), use your browser's "Print to PDF" function. This ensures a clean, single-file document suitable for NotebookLM grounding.
     - **Goal**: Convert all selected web content into PDF format (this is mandatory for reliable grounding in NotebookLM).
 4. **Repeat & Filter**:
-    - Repeat steps 1-3 until your team has acquired enough sources. How much is enough? If your sources are book length (hundreds of pages), then you need about 10 of them. If they are shorter (e.g., long webpages) then you will need about three times as many. For mixtures of book-length and shorter sources, somewhere in between. (This is because of the source limits of the free tier of NotebookLM. In Dec 2026 they were 500,000 words or 200MB per source file, with a maximum of 50 sources per notebook.)
+    - Repeat steps 1-3 until your team has acquired enough sources. How much is enough? If your sources are book length (hundreds of pages), then you need about 10 of them. If they are shorter (e.g., long webpages) then you will need about three times as many. For mixtures of book-length and shorter sources, somewhere in between. (This is because of the source limits of the free tier of NotebookLM. In Dec 2025 they were 500,000 words or 200MB per source file, with a maximum of 50 sources per notebook.)
     - Filter ruthlessly: Exclude short news clippings, simple landing pages, or low-quality sources.
 
 ## High-Level Briefing Document (Wk 03. Jan 14-Jan 21)
