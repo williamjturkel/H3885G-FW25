@@ -72,13 +72,14 @@ Defining the computational essay. Introducing **NotebookLM** for synthesis. Usin
 ## Table Activity: Preparing for the Individual Critique
 
 - **Task**: Prepare material needed for your Individual Portion of [Assignment 01](<../A01>).
+- **Objective**: Ensure your three personas are distinct and methodologically sound.
+- **Procedure**:
+      - **Select Thesis**: Formulate one **complex research question** for the corpus (this is your own thesis, not your teams, that you will test).
+      - **Design Personas**: Individually design the full System Instruction for two Personas in addition to the Skeptical Historian. These should match the kind of person who might find something of interest in your corpus. If you have a corpus that relates to policy, then Policy Analyst might be a good choice. If your corpus relates to music lyrics then Countercultural Critic or Musicologist might be better choices.
+      - **Peer Review**: Exchange the written persona instructions with your tablemates. Critique each other's designs for ambiguity or lack of constraint.
 
-Objective: Ensure your three personas are distinct and methodologically sound.
+# Assignment 01
 
-Procedure:
+Assignment 01 is listed on OWL as due today (to keep you on track). You have a week to submit it.
 
-Select Thesis: Formulate one complex research question for the corpus (this is the thesis you will test).
-
-Design Personas: Individually design the full System Instruction for the two remaining Personas (e.g., "Enthusiastic Journalist," and "Policy Analyst").
-
-Peer Review: Exchange the written persona instructions with your tablemates. Critique each other's designs for ambiguity or lack of constraint.
+# Any questions?
