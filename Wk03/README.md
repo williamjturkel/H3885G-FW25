@@ -28,7 +28,7 @@ A core research skill: harvesting data at scale. Using **Vibe Coding** to genera
 - **Procedure**:
     1. **Select a Target**: For this example we will be using Institute of Medicine (US) Committee to Review the Health Effects in Vietnam Veterans of Exposure to Herbicides, _Veterans and Agent Orange: Health Effects of Herbicides Used in Vietnam_, [Chapter 3: The U.S. Military and the Herbicide Program in Vietnam](https://www.ncbi.nlm.nih.gov/books/NBK236347/). Washington, DC: National Academies Press, 1994. The URL is https://www.ncbi.nlm.nih.gov/books/NBK236347/.
     2. **Prompt**: Write a Vibe Coding prompt (e.g., "Write a JavaScript function that requests a URL and fetches the content. Extract the main body text only, and remove all inline CSS tags and navigation menus.")
-    3. **Test**: Run your app and see how it works. NOTE: The first time I tested this in December 2026, the app notified me that "Direct URL fetching may fail due to browser CORS policies. Paste HTML below for 100% reliability." It included both a URL input and an HTML input. The website did block extraction from the URL so I had to paste the HTML source instead. If you need to paste HTML source, visit the URL in the Chrome browser. Choose View &rarr; Developer &rarr; View Source. Click in the source and select all of it to copy to the clipboard. Then you can paste it into your app.
+    3. **Test**: Run your app and see how it works. <br/> NOTE: The first time I tested this in December 2026, the app notified me that "Direct URL fetching may fail due to browser CORS policies. Paste HTML below for 100% reliability." It included both a URL input and an HTML input. The website did block extraction from the URL so I had to paste the HTML source instead. If you need to paste HTML source, visit the URL in the Chrome browser. Choose View &rarr; Developer &rarr; View Source. Click in the source and select all of it to copy to the clipboard. Then you can paste it into your app.
 
 # Debrief: Code Quality and Acquisition Ethics
 
@@ -42,28 +42,20 @@ A core research skill: harvesting data at scale. Using **Vibe Coding** to genera
 
 ## How I Improved the Data Sampler
 
-- The Data Sampler tool that you created in Activity 1 extracts the main body of text in a long web page and removes some of the formatting.
+1. The Data Sampler tool that you created in Activity 1 extracts the main body of text in a long web page and removes some of the formatting.
 - The process of extracting information from unstructured text is called **text mining**. Traditionally this involved searching for **regular expressions (regex)**, character patterns that allowed the machine to identify things in the text. A valid email address, for example, always includes the 'at sign symbol'. Now that we have LLMs that can 'read' text, we can prompt them to do things like "extract email addresses".
 - There are some problems with using LLMs instead of regular expressions. They are more costly, more likely to comment on what they are doing, and less likely to be exhaustive.
 - When I tried to improve the Data Sampler to extract specific information, I used these prompts in AI Studio
-- 
-      - **Prompt**: Can you modify this app so that it requests a pattern (described in natural language) to optionally extract from the document? <br/> **Result**: Auto-fix error. App automatically uses LLM to read the source. LLM only extracts a few examples of pattern and provides a lot of commentary.
-      - **Prompt**: The app should use Gen AI to translate the pattern into a regular expression that can be used on the JavaScript DOM. <br /> **Comment**: Instead of having the LLM read the whole document, I am asking it to use the LLM only to create a regular expression, then use that to process the webpage. <br/> **Result**: Successful application.
-  
-- This process, where I kept adjusting my requests until I got something working is called **Iterative Development**. But what if I want to share the results without having you go through a similiar iterative process?
-- I gave AI Studio a final instruction
-- 
-      - **Prompt**: Perfect. I would like to provide a single prompt to create an app like this so that my students can use it in AI Studio without going through the iterative development process we just followed. Please create that prompt. **Response**: [Fully Specified Prompt](./wk03-fully-specified-prompt.md).
-  
+  - **Prompt**: Can you modify this app so that it requests a pattern (described in natural language) to optionally extract from the document? <br/> **Result**: Auto-fix error. App automatically uses LLM to read the source. LLM only extracts a few examples of pattern and provides a lot of commentary.
+  - **Prompt**: The app should use Gen AI to translate the pattern into a regular expression that can be used on the JavaScript DOM. <br /> **Comment**: Instead of having the LLM read the whole document, I am asking it to use the LLM only to create a regular expression, then use that to process the webpage. <br/> **Result**: Successful application.
+- This process, where I kept adjusting my requests until I got something working is called **Iterative Development**. But what if I want to share the results without having you go through a similiar iterative process? I gave AI Studio a final instruction
+  - **Prompt**: Perfect. I would like to provide a single prompt to create an app like this so that my students can use it in AI Studio without going through the iterative development process we just followed. Please create that prompt. <br/> **Response**: [Fully Specified Prompt](./wk03-fully-specified-prompt.md).
 - **Insight**: We can use the AI to tell us how to create a successful prompt. 
 
-# Activity 2: Data Cleaning and Preparation (35 Min)
+# Activity 2: Data Cleaning and Preparation (30 Min)
 
 ## Table Activity: Structuring Raw Text for Analysis
 
-
-
 Extract all sentences containing the word 'Agent' or 'Agents' followed immediately by one or more color words such as 'Orange', 'White'
 
-Instead of using AI to do the extraction, use AI to translate the natural language refinement pattern into a regular expression
  
