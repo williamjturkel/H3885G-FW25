@@ -59,4 +59,19 @@ A core research skill: harvesting data at scale. Using **Vibe Coding** to genera
 - **Task**: Use the [Fully Specified Prompt](./wk03-fully-specified-prompt.md) in AI studio to create a new app that extracts specific information from the body of a webpage.
 - **Process**: You can copy the prompt from the link and paste it into a new AI Studio session.
 - **Test**: Provide the URL for the Agent Orange chapter as an input and give the app this description of what you want: "Extract all sentences containing the word 'Agent' or 'Agents' followed immediately by one or more color words such as 'Orange', 'White'". Is the output a list of sentences that matches that description?
-- **Deeper Understanding**: Unless you are already an experienced programmer, there will be a number of things in the fully specified prompt that you do not understand. Open a Gemini chat session and provide the prompt URL as input. Then ask Gemini to explain the different parts of the prompt to you at a level that suits your understanding. Discuss with the other students at your table. 
+- **Deeper Understanding**: Unless you are already an experienced programmer, there will be a number of things in the fully specified prompt that you do not understand. Open a Gemini chat session and provide the prompt URL as input. Then ask Gemini to explain the different parts of the prompt to you at a level that suits your understanding. Discuss with the other students at your table.
+
+# Debrief: From Raw Text to Usable Data
+
+## The Gap Between Acquisition and Analysis
+
+- **Challenge**: Raw text often contains metadata, headers, footers, and OCR errors that confuse LLMs. Since we were working from a digital document (a web page) rather than a digitized document, we did not have to deal with OCR errors or elements like "Page 1 of 50" in the text itself. With messier sources, we might have to vibe code apps to clean up the text before extraction.
+- **Unsworth's Primitives**: The process just completed moves the data from **Sampling** (collection) to the first steps of **Representing** (cleaning/pre-structuring).
+- **The Next Hurdle**: The current text is clean but **unstructured**. It's useless for advanced computational tasks like Network Analysis or large-scale comparison.
+- **Moving Forward**: We need to go from a simple text file (.txt) to a **Structured Data** format (.json or .csv) that the AI can reliably read and process in the next phase.
+
+# Assignment 2 Overview
+
+[Assignment Page](<../A02>)
+
+# Any questions?
