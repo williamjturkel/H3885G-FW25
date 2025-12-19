@@ -56,6 +56,7 @@ A core research skill: harvesting data at scale. Using **Vibe Coding** to genera
 
 ## Table Activity: Structuring Raw Text for Analysis
 
-Extract all sentences containing the word 'Agent' or 'Agents' followed immediately by one or more color words such as 'Orange', 'White'
-
- 
+- **Task**: Use the [Fully Specified Prompt](./wk03-fully-specified-prompt.md) in AI studio to create a new app that extracts specific information from the body of a webpage.
+- **Process**: You can copy the prompt from the link and paste it into a new AI Studio session.
+- **Test**: Provide the URL for the Agent Orange chapter as an input and give the app this description of what you want: "Extract all sentences containing the word 'Agent' or 'Agents' followed immediately by one or more color words such as 'Orange', 'White'". Is the output a list of sentences that matches that description?
+- **Deeper Understanding**: Unless you are already an experienced programmer, there will be a number of things in the fully specified prompt that you do not understand. Open a Gemini chat session and provide the prompt URL as input. Then ask Gemini to explain the different parts of the prompt to you at a level that suits your understanding. Discuss with the other students at your table. 
