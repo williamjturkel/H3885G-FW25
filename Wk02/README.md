@@ -43,3 +43,42 @@ Defining the computational essay. Introducing **NotebookLM** for synthesis. Usin
 
 - **Weak Instruction**: "Be a good historian and write an essay." (Too vague).
 - **Strong Instruction**: "**Role**: You are a critical editor. **Constraint**: You must use inline citations (Source Title, page number) for all claims. If a claim cannot be verified in the sources, you must state: `UNVERIFIABLE`. **Tone**: Formal, objective, and analytical." (Actionable).
+
+# Activity 2: Grounding and Synthesis (25 Min)
+
+## Individual Task: Testing Persona Application
+
+- **Task**: Students use their team's NotebookLM notebook to work on synthesis briefing.
+- **Pre-Requisite**: Team corpus must be available in Files section of Google Chat space, and NotebookLM notebook created and shared.
+- **Procedure**:
+    1. **Apply Persona**: Input the refined **Skeptical Historian Persona** (from Activity 1) as the first part of your prompt.
+    2. **Formulate Question**: Try to formulate a complex research question that requires synthesis across multiple sources in the corpus.
+    3. **Generate & Finalize**: Run the query. Refine the query until you achieve a high-quality, fully cited output (approx. 750 words).
+    4. **Share with Team**: Upload your final query and the NotebookLM output to the Google Chat space for your team. As a group your team is going to have to create a **Briefing Document** to submit, and this activity gives individual team members a chance to work on the problem.
+
+# Debrief: The Referring Primitive
+
+## Critique Your Synthesized Briefing
+
+- **Core Question**: Did the AI meet the **Referring** requirement?
+- **Checklist**:
+      - Are the claims directly supported by the source snippets provided by NotebookLM?
+      - Are there citations for every major claim?
+      - Could a reader trace every sentence back to your original corpus documents?
+- **Methodological Check**: If the AI failed to cite, your **System Instruction (Persona)** was not strong enough. This reinforces the need for rigorous constraint.
+
+# Activity 3: Designing Three Personas (25 Min)
+
+## Table Activity: Preparing for the Individual Critique
+
+- **Task**: Prepare material needed for your Individual Portion of [Assignment 01](<../A01>).
+
+Objective: Ensure your three personas are distinct and methodologically sound.
+
+Procedure:
+
+Select Thesis: Formulate one complex research question for the corpus (this is the thesis you will test).
+
+Design Personas: Individually design the full System Instruction for the two remaining Personas (e.g., "Enthusiastic Journalist," and "Policy Analyst").
+
+Peer Review: Exchange the written persona instructions with your tablemates. Critique each other's designs for ambiguity or lack of constraint.
