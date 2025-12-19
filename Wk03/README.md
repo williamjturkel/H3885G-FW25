@@ -42,7 +42,7 @@ A core research skill: harvesting data at scale. Using **Vibe Coding** to genera
 
 ## How I Improved the Data Sampler
 
-1. The Data Sampler tool that you created in Activity 1 extracts the main body of text in a long web page and removes some of the formatting.
+- The Data Sampler tool that you created in Activity 1 extracts the main body of text in a long web page and removes some of the formatting.
 - The process of extracting information from unstructured text is called **text mining**. Traditionally this involved searching for **regular expressions (regex)**, character patterns that allowed the machine to identify things in the text. A valid email address, for example, always includes the 'at sign symbol'. Now that we have LLMs that can 'read' text, we can prompt them to do things like "extract email addresses".
 - There are some problems with using LLMs instead of regular expressions. They are more costly, more likely to comment on what they are doing, and less likely to be exhaustive.
 - When I tried to improve the Data Sampler to extract specific information, I used these prompts in AI Studio
