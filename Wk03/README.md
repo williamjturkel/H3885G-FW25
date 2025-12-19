@@ -49,7 +49,8 @@ A core research skill: harvesting data at scale. Using **Vibe Coding** to genera
       - **Prompt**: Can you modify this app so that it requests a pattern (described in natural language) to optionally extract from the document? **Result**: Auto-fix error. App automatically uses LLM to read the source. LLM only extracts a few examples of pattern and provides a lot of commentary.
       - **Prompt**: The app should use Gen AI to translate the pattern into a regular expression that can be used on the JavaScript DOM. **Comment**: Instead of having the LLM read the whole document, I am asking it to use the LLM only to create a regular expression, then use that to process the webpage. **Result**: Successful application.
 - This process, where I kept adjusting my requests until I got something working is called **Iterative Development**. But what if I want to share the results without having you go through a similiar iterative process?
-- I gave AI Studio a final **Prompt**: Perfect. I would like to provide a single prompt to create an app like this so that my students can use it in AI Studio without going through the iterative development process we just followed. Please create that prompt. **Response**: Fully Specified Prompt.
+- I gave AI Studio a final **Prompt**: Perfect. I would like to provide a single prompt to create an app like this so that my students can use it in AI Studio without going through the iterative development process we just followed. Please create that prompt. **Response**: [Fully Specified Prompt](./wk03-fully-specified-prompt.md).
+- **Insight**: We can use the AI to tell us how to create a successful prompt. 
 
 # Activity 2: Data Cleaning and Preparation (35 Min)
 
