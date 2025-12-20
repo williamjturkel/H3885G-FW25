@@ -34,7 +34,7 @@ A core research skill: harvesting data at scale. Using **Vibe Coding** to genera
 
 ## Evaluating Our Generated Utility Code
 
-- **Discussion**: What were the immediate challenges with the generated code? (e.g., failed imports, difficulty running). Auto-fix errors.
+- **Discussion**: What were the immediate challenges with the generated code? (e.g., failed imports, difficulty running). **Auto-fix errors**.
 - **Code is a Means, Not an End**: We are not fixing bugs; we are determining if the AI-generated code successfully performs the **Sampling** primitive. If it fails repeatedly, we have to revise our prompt or rethink our approach.
 - **Ethical Check**: When we collect data from public websites we have ethical responsibilities. A script that requests too much data too quickly is similar to a denial of service attack, so we need to make sure to prompt for polite behavior. Also, vibe coding should only be used on static, non-gated archival documents. It is OK to use it for resources that are available on the open web but not for, say, resources that we access through the university library catalogue. If in doubt, make sure to ask me.
 
