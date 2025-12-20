@@ -18,9 +18,7 @@ After our Jan 29 meeting your **team** has to do the following
   - **Instruction Manual**: A 1-page document detailing how to use the Extractor and explaining the design choices of the JSON Schema.
 - **Input Data**: The team must test the tool by successfully extracting data from a sub-corpus they did not create (drawn from the Class Data Pool).
 
-## The Required JSON Schema
-
-### Defining Data Structures for Vietnam War Research
+### The Required JSON Schema: Defining Data Structures for Vietnam War Research
 
 Your Schema Must Define and Extract at Least FOUR entities or relationships per source:
 - **Schema as Prompt Input**: Your final JSON schema must be included inside the Master Prompt (Wk 04) to ensure the AI generates the API call correctly.
