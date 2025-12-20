@@ -34,7 +34,7 @@ Your Schema Must Define and Extract at Least FOUR entities or relationships per 
 - **Procedure**: After creating the app, you must generate five final test runs for your submission. This requires two steps: **Data Preparation** and **Validation**.
   1. **Data Preparation (Isolating the Clean Text)**:
      - You must use the **NotebookLM** tool to isolate the specific text required for each test run from the larger PDF documents in the Class Data Pool.
-     - **Method**: Open the PDF source in NotebookLM, locate a chapter or rich section, copy a segment (approx. 500-1000 words) that contains the entities your Extractor targets, and paste it into a clean text editor (like a Google Doc) to remove headers, footers, and page numbers. **This clean text is the mandatory input for your Extractor App**. For each test run, save the input file as a Text file (.txt)
+     - **Method**: Open the PDF source in NotebookLM, locate a chapter or rich section, copy a segment (approx. 500-1000 words) that contains the entities your Extractor targets, and paste it into a clean text editor (like a Google Doc) to remove headers, footers, and page numbers. **This clean text is the mandatory input for your Extractor App**. For each test run, save the input file as a Text file (.txt) and keep track of where each text came from.
   2. **Validation & Extraction**:
      - Run the final, optimized Extractor App (your team's .html file) on the 5 clean text segments you prepared in the previous step. The output will consist of 5 valid JSON files will be submitted as part of the team portion of your assignment.
 
