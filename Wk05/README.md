@@ -58,24 +58,44 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 - **Verification**: The process of ensuring that the extracted data is accurate and fits the defined schema.
 - **Testing against Unfamiliar Data**: Since your team used a corpus created by a different team, this immediately tests the reliability of your Extractor on data it was not tuned for.
 
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-NEED TO USE NEW WEEK O5 SLIDES TO GET PROCEDURE FOR GETTING CLEAN TEXT FROM PDF
-
 # Activity 1: JSON Validation and Refinement (40 Min)
+
+## Getting Clean Text from the Class Data Pool
+
+- **Challenge**: Our Vibe-Coded app needs a single text block, not a full PDF.
+- **Procedure**:
+  1. **Access**: Open the PDF file within **NotebookLM**.
+  2. **Locate Segment**: Navigate to a chapter or section that is rich in the entities your Extractor targets.
+  3. **Copy Clean Text**: Copy a continuous segment of text (approx. 500-1000 words, or 1-2 pages) and paste it into a temporary Doc or simple text editor to remove any extra line breaks or headers.
+- **Goal**: Create a clean, usable text sample that accurately represents the source material but is isolated for the Extractor input field.
 
 ## Table Activity: Finding Errors in Representation
 
-- **Task**: Run your team's Extractor App on **five** clean documents from the assigned, external sub-corpus.
+- **Task**: Run your team's Extractor App on text from **five** documents from the sub-corpus.
+- **Procedure**:
+  1. **Run Extraction**: Paste text and run the analysis.
+  2. **Validate Structure**: Check if the output is **valid JSON**. (If not, the schema definition was bad).
+  3. **Validate Content**: Check if the **content** adheres to the schema rules (e.g., if a field is defined as an `INTEGER` but the output is text).
+  4. **Share Findings**: Discuss the most persistent error (e.g., the AI keeps including the citation text in the `key_entity_name` field) with your tablemates.
+- **Goal**: Use the class time for rigorous, collaborative debugging and error identification for your individual team's tool.
 
-Procedure:
+# Debrief: The Systemic Flaw
 
-Run Extraction: Paste text and run the analysis.
+## Preparing for Your Individual Essay for A02
 
-Validate Structure: Check if the output is valid JSON. (If not, the schema definition was bad).
+- **Discussion**: What error did you find that cannot be fixed by editing the prompt? (e.g., the corpus simply too vague to provide an "integer confidence score").
+- **Systemic Flaw**: The issue lies in the **design** of the JSON Schema itself. This flaw is the core subject of the Individual Essay for A02.
+- **Key Question**: Does our **Representation** (the schema) truly serve our research question, or is it forcing the data into a mold that destroys meaning?
 
-Validate Content: Check if the content adheres to the schema rules (e.g., if a field is defined as an INTEGER but the output is text).
+# Activity 2: Immediate Analytical Querying (40 Min)
 
-Share Findings: Discuss the most persistent error (e.g., the AI keeps including the citation text in the key_entity_name field) with your tablemates.
+## Table Activity: Testing the Computational Advantage
 
-Goal: Use the class time for rigorous, collaborative debugging and error identification for your individual team's tool.
+- **Task**: Use Vibe Coding to generate a quick **JavaScript utility script** that runs simple analysis on the extracted JSON data, proving the value of structure.
+- **Procedure**:
+  1. **Identify Insight**: Formulate a simple research question based on the canonical schema (e.g., "What is the average 'Sentiment Score' for all documents extracted so far?").
+  2. **Use Vibe Coding**: "Generate a **JavaScript** function that takes an array of JSON objects (the data we just extracted) and calculates the average value of the `sentiment_score` key."
+  3. **Execute & Share**: Run the script in the browser's console using your extracted JSON data. Discuss the numerical result with your tablemates.
+- **Goal**: Immediately demonstrate the computational power of structured data, connecting the "Representing" primitive to the "Comparing" primitive (Week 06).
+
+# Any questions?
