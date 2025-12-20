@@ -50,3 +50,28 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 
 - **Critical Check**: Note that `2` is a number (Integer), not text `"2"`. Note that the date follows the strict `YYYY-MM-DD` format. This precision is what makes the data computable.
 
+# Verification: The Methodological Checkpoint
+
+## Trust, but Verify the Data
+
+- **Problem**: The AI generated the code, but did it generate the right code? Did it adhere to the JSON schema 100% of the time?
+- **Verification**: The process of ensuring that the extracted data is accurate and fits the defined schema.
+- **Testing against Unfamiliar Data**: Since your team used a corpus created by a different team, this immediately tests the reliability of your Extractor on data it was not tuned for.
+
+# Activity 1: JSON Validation and Refinement (40 Min)
+
+## Table Activity: Finding Errors in Representation
+
+- **Task**: Run your team's Extractor App on **five** clean documents from the assigned, external sub-corpus.
+
+Procedure:
+
+Run Extraction: Paste text and run the analysis.
+
+Validate Structure: Check if the output is valid JSON. (If not, the schema definition was bad).
+
+Validate Content: Check if the content adheres to the schema rules (e.g., if a field is defined as an INTEGER but the output is text).
+
+Share Findings: Discuss the most persistent error (e.g., the AI keeps including the citation text in the key_entity_name field) with your tablemates.
+
+Goal: Use the class time for rigorous, collaborative debugging and error identification for your individual team's tool.
