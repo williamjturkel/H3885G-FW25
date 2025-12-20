@@ -58,6 +58,10 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 - **Verification**: The process of ensuring that the extracted data is accurate and fits the defined schema.
 - **Testing against Unfamiliar Data**: Since your team used a corpus created by a different team, this immediately tests the reliability of your Extractor on data it was not tuned for.
 
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+NEED TO USE NEW WEEK O5 SLIDES TO GET PROCEDURE FOR GETTING CLEAN TEXT FROM PDF
+
 # Activity 1: JSON Validation and Refinement (40 Min)
 
 ## Table Activity: Finding Errors in Representation
