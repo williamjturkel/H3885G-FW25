@@ -33,6 +33,6 @@ Your Schema Must Define and Extract at Least FOUR entities or relationships per 
 - **Evaluation Note**: The precision of this schema defines the limits of your research.
 
 
-FOOBAR
+!!!!! FOOBAR  - got to Slide 5
 
 Team Submission: The Master Prompt text, ????? the final .html file [DO I WANT THEM TO UPLOAD CODE?], and the Instruction Manual, information about test, JSON output from test.
