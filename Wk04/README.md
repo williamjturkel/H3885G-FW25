@@ -86,3 +86,4 @@ The Master Prompt must contain three parts. If you forget to include a requireme
   3. **AI Assist**: Open a Gemini chat window and use a prompt like this: "I am trying to write a prompt to describe an app for AI studio. Can you make suggestions for improving the prompt? Here it is: `paste in prompt text`"
 - **Goal**: Individual students leave with the highest quality, least ambiguous Master Prompt ready for discussion with their A02 team.
 
+# Any questions?
