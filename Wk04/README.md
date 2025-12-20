@@ -10,9 +10,9 @@ The Master Prompt: Generating the full research tool. **Scholarly Primitive: Rep
 - **The Master Prompt**: This is the single, highly constrained, and verbose natural language command that serves as the **top-down source code** for the entire application.
 - **Focus Shift**: Rather than writing code we are mastering the art of the integrated prompt. We are building a high-performance **engine** by designing the blueprint _first_.
 
-# Anatomy of the Master Prompt
+## Anatomy of the Master Prompt
 
-## Integrating Requirements into One Command
+### Integrating Requirements into One Command
 
 The Master Prompt must contain three parts. If you forget to include a requirement, Vibe Coding will not necessarily generate it.
 
@@ -20,4 +20,15 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 |---|---|---|
 |**1. UI/Architecture**|Defines the interface and code language.|"Generate a single-file HTML/JS app with a large text input and a button..."|
 |**2. Logic/Action**|Defines the API call and data flow.|"...when the button is clicked, call the Gemini API and send the text input..."|
-|**3. Data Schema (Wk 05 Preview)**|Defines the structure of the output.|"...The response MUST be valid JSON, strictly following this schema:`paste schema here`"|
+|**3. Data Schema (Wk 05 Preview)**|Defines the structure of the output.|"...The response MUST be valid JSON, strictly following this schema: `paste schema here`"|
+
+## Activity 1: Generating the Minimal UI Scaffold (20 Min)
+
+### Table Activity: Building the Container
+
+- **Task**: Use Vibe Coding in AI Studio to generate the basic, single-file HTML app.
+- **Procedure**:
+  1. **Draft the Prompt (Focus on UI)**: Write a prompt that requests a simple, modern-looking web app with a title, a large text input box, and a button. **Crucially, specify the logic must be in JavaScript**.
+  2. **Generate & Refine**: Run the prompt to generate the initial code. Use natural language to make two small functional refinements (e.g., "Make the output area scrollable").
+- **Goal**: Generate a clean HTML document that serves as the visual shell for the extractor your team will make in Assignment 02.
+
