@@ -16,8 +16,6 @@ After our Jan 29 meeting your **team** has to do the following
   - **The Master Prompt**: The single natural language command that generates the entire app (UI, Logic, and Schema). This serves as 'recipe' for future teams to generate your app.
   - **The Final App**: The functional `.html` file that results from executing the Master Prompt.
   - **Instruction Manual**: A 1-page document detailing how to use the Extractor and explaining the design choices of the JSON Schema.
-- **Input Data**: The team must test the tool by successfully extracting data from five documents in a sub-corpus they did not create (drawn from the Class Data Pool).
-- **Output Files**: These 5 valid JSON files will be submitted as part of the team portion of your assignment.
 
 ### The Required JSON Schema: Defining Data Structures for Vietnam War Research
 
@@ -31,13 +29,22 @@ Your Schema Must Define and Extract at Least FOUR entities or relationships per 
   - `confidence_score` (integer, 1-5, where 5 is high)
 - **Evaluation Note**: The precision of this schema defines the limits of your research.
 
+### Testing the Extractor App
+
+- **Procedure**: After creating the app, you must generate five final test runs for your submission. This requires two steps: **Data Preparation** and **Validation**.
+  1. **Data Preparation (Isolating the Clean Text)**:
+     - You must use the **NotebookLM** tool to isolate the specific text required for each test run from the larger PDF documents in the Class Data Pool.
+     - **Method**: Open the PDF source in NotebookLM, locate a chapter or rich section, copy a segment (approx. 500-1000 words) that contains the entities your Extractor targets, and paste it into a clean text editor (like a Google Doc) to remove headers, footers, and page numbers. **This clean text is the mandatory input for your Extractor App**. For each test run, save the input file as a Text file (.txt)
+  2. **Validation & Extraction**:
+     - Run the final, optimized Extractor App (your team's .html file) on the 5 clean text segments you prepared in the previous step. The output will consist of 5 valid JSON files will be submitted as part of the team portion of your assignment.
+
 ## Methodological Critique and Essay (Wk 06. Feb 5-Feb 12)
 
 After our Feb 5 meeting **each individual student** has to do the following
 
 - **Task**: Write a 500-word essay critically reflecting on the tool's performance and the methodological trade-offs of structured extraction.
 - **Procedure**:
-  1. **Validation**: Your team tested the Extractor App on five documents and created JSON files as outputs
+  1. **Validation**: Your team tested the Extractor App on five texts isolated from the PDFs and created JSON files as outputs
   2. **Identify Failures**: Try to find at least two instances where the Extractor **failed** or produced **incorrect data** (e.g., hallucinated a date, misclassified a relationship).
   3. **Critique**: Analyze the root cause of the failure. **Was the systemic issue a flaw in the JSON Schema (Representation) or the Master Prompt's System Instruction**? Or was it something else?
 - **Evaluation**: Graded on depth of **methodological insight** and clarity in articulating computational limitations.
@@ -64,7 +71,9 @@ Team submission, to be uploaded to OWL Brightspace along with your individual as
 - _**TEAMNAME-APP.html**_
   - The HTML file of your application
 - _**TEAMNAME-TEST-FILES.CSV**_
-  - Google Sheets file saved as CSV containing information about your test runs (Test Number, Input Filename, Output JSON File)
+  - Google Sheets file saved as CSV containing information about your test runs (Test Number, Input Filename, Output JSON Filename)
+- _**TEAMNAME-TEST-01.txt**_ to _**TEAMNAME-TEST-05.txt**_
+  - The five text files extracted from the PDFs to serve as inputs for your Extractor
 - _**TEAMNAME-TEST-01.json**_ to _**TEAMNAME-TEST-05.json**_
   - The five JSON files created as outputs during your tests
 
