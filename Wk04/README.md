@@ -22,7 +22,7 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 |**2. Logic/Action**|Defines the API call and data flow.|"...when the button is clicked, call the Gemini API and send the text input..."|
 |**3. Data Schema (Wk 05 Preview)**|Defines the structure of the output.|"...The response MUST be valid JSON, strictly following this schema: `paste schema here`"|
 
-# Activity 1: Generating the Minimal UI Scaffold (20 Min)
+# Activity 1: Generating the Minimal UI Scaffold (25 Min)
 
 ## Table Activity: Building the Container
 
@@ -40,7 +40,7 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 - **The Pipeline Check**: Ensure your generated app has the three parts: 1) Input area, 2) Button (the trigger), and 3) Output display area.
 - **Methodological Insight**: If the shell is bad now, the final app will be bad. We prioritize architecture before data logic.
 
-# Activity 2: Drafting the Master Prompt (45 Min)
+# Activity 2: Drafting the Master Prompt (25 Min)
 
 ## Individual Task: Engineering the Top-Down Command
 
@@ -65,4 +65,24 @@ The Master Prompt must contain three parts. If you forget to include a requireme
   },
   "required": ["key_actor", "date_of_event", "sentiment_score", "doc_topic_tag"]
 }
+```
+
+# Debrief: The Master Prompt as Source Code
+
+## Complexity Managed by Language
+
+- **Observation**: The final Master Prompt is long and highly prescriptive.
+- **Pedagogical Insight**: This complex paragraph is the equivalent of writing dozens of lines of JavaScript code. You bypassed manual programming by mastering the top-down instruction set.
+- **Team Handover Link**: This final Master Prompt (not the resulting code) is the true recipe for the Team Portion of A02.
+
+# Activity 3: Prompt Peer Review (25 Min)
+
+## Table Activity: Critiquing the Blueprint
+
+- **Task**: Peer review your tablemates' individual Master Prompts.
+- **Procedure**:
+  1. **Exchange**: Share your full Master Prompt text with your tablemates. You could do this through Google Chat.
+  2. **Critique**: Identify the single most ambiguous or contradictory instruction in each prompt. Discuss ways you might edit the prompt to correct flaws.
+  3. **AI Assist**: Open a Gemini chat window and use a prompt like this: "I am trying to write a prompt to describe an app for AI studio. Can you make suggestions for improving the prompt? Here it is: `paste in prompt text`"
+- **Goal**: Individual students leave with the highest quality, least ambiguous Master Prompt ready for discussion with their A02 team.
 
