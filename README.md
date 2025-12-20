@@ -23,7 +23,7 @@ The shared research domain for the entire semester is **Digital Archives of the 
 - [Wk 01. Jan 8. The Top-Down Philosophy, Scholarly Primitives & Gemini Ecosystem](<./Wk01>)
 - [Wk 02. Jan 15. The Research Agent Persona and Grounding](<./Wk02>)
 - [Wk 03. Jan 22. Data Acquisition and Preparation for Custom Corpus](<./Wk03>)
-- Wk 04. Jan 29. From Research Idea to AI Prototype (Vibe Coding)
+- [Wk 04. Jan 29. From Research Idea to AI Prototype (Vibe Coding)](<./Wk04>)
 - Wk 05. Feb 5. Structured Data: JSON In, JSON Out
 - Wk 06. Feb 12. Verification, Grounding, and Systematic Comparison
 - Wk 07. Feb 19. SPRING READING WEEK - NO CLASS
