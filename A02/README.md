@@ -11,6 +11,7 @@
 
 After our Jan 29 meeting your **team** has to do the following
 
+- **Choose a team leader**. This person will be responsible for submitting the team portion of the assignment to OWL. They will also be responsible for making sure that files get submitted to the Class Data Pool on time.
 - **Task**: Generate the complete, integrated Extractor App using a single **Master Prompt** and validate its output.
 - **Artifact Components**:
   - **The Master Prompt**: The single natural language command that generates the entire app (UI, Logic, and Schema). This serves as 'recipe' for future teams to generate your app.
@@ -34,9 +35,13 @@ Your Schema Must Define and Extract at Least FOUR entities or relationships per 
 - **Procedure**: After creating the app, you must generate five final test runs for your submission. This requires two steps: **Data Preparation** and **Validation**.
   1. **Data Preparation (Isolating the Clean Text)**:
      - You must use the **NotebookLM** tool to isolate the specific text required for each test run from the larger PDF documents in the Class Data Pool.
-     - **Method**: Open the PDF source in NotebookLM, locate a chapter or rich section, copy a segment (approx. 500-1000 words) that contains the entities your Extractor targets, and paste it into a clean text editor (like a Google Doc) to remove headers, footers, and page numbers. **This clean text is the mandatory input for your Extractor App**. For each test run, save the input file as a Text file (.txt) and keep track of where each text came from.
+     - **Method**: Open the PDF source in NotebookLM, locate a chapter or rich section, copy a segment (approx. 500-1000 words) that contains the entities your Extractor targets, and paste it into a clean text editor (like a Google Doc) to remove headers, footers, and page numbers. **This clean text is the mandatory input for your Extractor App**. For each test run, save the input file as a Text file named _**TEAMNAME-TEST-01.txt**_ to _**TEAMNAME-TEST-05.txt**_. Create a Google Sheets file named _**TEAMNAME-TEST-FILES.csv**_ containing information about your test runs (Test Number, Source Filename, Input Text Filename, Output JSON Filename).
   2. **Validation & Extraction**:
-     - Run the final, optimized Extractor App (your team's .html file) on the 5 clean text segments you prepared in the previous step. The output will consist of 5 valid JSON files will be submitted as part of the team portion of your assignment.
+     - Run the final, optimized Extractor App (your team's .html file) on the 5 clean text segments you prepared in the previous step. The output will consist of 5 valid JSON files will be submitted as part of the team portion of your assignment. Name these files _**TEAMNAME-TEST-01.json**_ to _**TEAMNAME-TEST-05.json**_ to correspond to the input text files.
+
+### Submitting Test Files to Class Data Pool
+
+By Feb 4, the **team leader** will collect the _**TEAMNAME-TEST-FILES.csv**_, _**TEAMNAME-TEST-01.txt**_ to _**TEAMNAME-TEST-05.txt**_ text files, and the _**TEAMNAME-TEST-01.json**_ to _**TEAMNAME-TEST-05.json**_ JSON files into a single Google Drive folder and share that folder with the Instructor's Gmail address (_william.j.turkel@gmail.com_).
 
 ## Methodological Critique and Essay (Wk 06. Feb 5-Feb 12)
 
@@ -70,7 +75,7 @@ Team submission, to be uploaded to OWL Brightspace along with your individual as
   - The one page instruction manual
 - _**TEAMNAME-APP.html**_
   - The HTML file of your application
-- _**TEAMNAME-TEST-FILES.CSV**_
+- _**TEAMNAME-TEST-FILES.csv**_
   - Google Sheets file saved as CSV containing information about your test runs (Test Number, Input Filename, Output JSON Filename)
 - _**TEAMNAME-TEST-01.txt**_ to _**TEAMNAME-TEST-05.txt**_
   - The five text files extracted from the PDFs to serve as inputs for your Extractor
