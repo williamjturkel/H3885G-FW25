@@ -43,12 +43,12 @@ Each team has a choice of creating <u>one</u> of two sub-topics to build their i
 
 Between our first and second class meetings, your **team** has to do the following
 
-1. **Choose a team leader**. This person will be responsible for submitting the team portion of the assignment to OWL.
+1. **Choose a team leader**. This person will be responsible for submitting the team portion of the assignment to OWL. They will also be responsible for making sure that files get submitted to the Class Data Pool on time.
 2. **Discuss and choose which of the two sub-topics you are going collect a corpus for**.
 3. **Define the scope of your collection**. The focus should be specific enough to be manageable but diverse enough for analysis. Write a short statement (a few sentences) describing the scope of your collection.
 4. **Procudure (Collection Protocol)**:
    1. Use the **Structured Discovery Workflow** (below) to find and save sources as Files in your private Google Chat space.
-   2. Create a Google Sheets document to keep track of the sources you collect and save it as a File in your private Google Chat space. Try to capture the following **metadata** for each source
+   2. Create a Google Sheets document named **_TEAMNAME-SOURCES.csv_** to keep track of the sources you collect and save it as a CSV File in your private Google Chat space. Try to capture the following **metadata** for each source
        - Title
        - Author
        - Date
@@ -71,6 +71,10 @@ Between our first and second class meetings, your **team** has to do the followi
 4. **Repeat & Filter**:
     - Repeat steps 1-3 until your team has acquired enough sources. How much is enough? If your sources are book length (hundreds of pages), then you need about 10 of them. If they are shorter (e.g., long webpages) then you will need about three times as many. For mixtures of book-length and shorter sources, somewhere in between. (This is because of the source limits of the free tier of NotebookLM. In Dec 2025 they were 500,000 words or 200MB per source file, with a maximum of 50 sources per notebook.)
     - Filter ruthlessly: Exclude short news clippings, simple landing pages, or low-quality sources.
+
+### Submitting PDF Files to Class Data Pool
+
+Before Jan 14, the **team leader** will collect the **_TEAMNAME-SOURCES.csv_** file and the PDF sources into a single Google Drive folder and share that folder with the Instructor's Gmail address (_william.j.turkel@gmail.com_).
 
 ## High-Level Briefing Document (Wk 03. Jan 14-Jan 21)
 
