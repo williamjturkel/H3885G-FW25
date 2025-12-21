@@ -74,7 +74,7 @@ Between our first and second class meetings, your **team** has to do the followi
 
 ### Submitting PDF Files to Class Data Pool
 
-Before Jan 14, the **team leader** will collect the **_TEAMNAME-SOURCES.csv_** file and the PDF sources into a single Google Drive folder and share that folder with the Instructor's Gmail address (_william.j.turkel@gmail.com_).
+By Jan 14, the **team leader** will collect the **_TEAMNAME-SOURCES.csv_** file and the PDF sources into a single Google Drive folder and share that folder with the Instructor's Gmail address (_william.j.turkel@gmail.com_).
 
 ## High-Level Briefing Document (Wk 03. Jan 14-Jan 21)
 
