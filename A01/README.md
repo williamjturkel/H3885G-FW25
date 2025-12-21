@@ -38,7 +38,13 @@ Each team has a choice of creating <u>one</u> of two sub-topics to build their i
 - **1G**
   - **Post-War Policy/Treaty Texts**: Documents related to the aftermath and refugee crisis (1975-1980).
   - **Personal Soldier Letters/Diaries**: Digitized collections of letters home from the front lines.
- 
+
+## Important Note about Filenames and File Contents
+
+In this class you will create two kinds of documents to submit for grading. For **team assignments** all documents may contain your TEAMNAME (e.g., 1A) but should not contain any other identifying information (_do not include your names or Gmail addresses_). This is to protect your **privacy** when the contents of the files are uploaded to AI tools. A typical document for a team assignment submission might be named something like **_1D-SCOPE.pdf_**, where 1D is the fourth team for Assignment 01, and the rest of the filename was specified in the assignment instructions.
+
+For **individual assignments**, filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself (_do not include your name or Gmail address_). This is to protect your **privacy** when the contents of the files are uploaded to AI tools. A typical document for an individual assignment submission might be named something like **_CARNEY-MARK-ESSAY.pdf_** if your name is Mark Carney. (He probably won't be in the class).
+
 ## Corpus Creation (Wk 02. Jan 8-Jan 14)
 
 Between our first and second class meetings, your **team** has to do the following
