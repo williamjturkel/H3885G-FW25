@@ -54,14 +54,15 @@ Between our first and second class meetings, your **team** has to do the followi
 3. **Define the scope of your collection**. The focus should be specific enough to be manageable but diverse enough for analysis. Write a short statement (a few sentences) describing the scope of your collection.
 4. **Procudure (Collection Protocol)**:
    1. Use the **Structured Discovery Workflow** (below) to find and save sources as Files in your private Google Chat space.
-   2. Create a Google Sheets document named **_TEAMNAME-SOURCES.csv_** to keep track of the sources you collect and save it as a CSV File in your private Google Chat space. Try to capture the following **metadata** for each source
+   2. The files should be renamed to **_TEAMNAME-SOURCE-01.pdf_**, **_TEAMNAME-SOURCE-02.pdf_**, ...
+   3. Create a Google Sheets document named **_TEAMNAME-SOURCES.csv_** to keep track of the sources you collect and save it as a CSV File in your private Google Chat space. Capture the following **metadata** for each source
        - Title
        - Author
        - Date
-       - Source Filename
+       - Source Filename (this will be something like _1D-SOURCE-07.pdf_)
        - URL  
-   3. Upload all files to a **single NotebookLM notebook**.
-   4. Use the NotebookLM **Share function** to grant all teammates Editor/Viewer access.
+   4. Upload all files to a **single NotebookLM notebook**.
+   5. Use the NotebookLM **Share function** to grant all teammates Editor/Viewer access.
 
 ### Structured Discovery Workflow
 
