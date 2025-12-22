@@ -123,3 +123,31 @@ In this case, Team 2D extracted a _rhetorical_device_ field which the other team
 - **Verification Challenge**: If one team's extractor gives **Confidence Score: 5** and another team's extractor gives **Confidence Score: 2** for the same type of source, what does this tell us about the **methodology**?
 - **Key Point**: Comparison immediately exposes flaws in the **Representation** (JSON Schema/Prompt).
 
+# Activity 2: Vibe Coding for Analysis (25 Min)
+
+## Table Activity: Generating Comparison Scripts
+
+- **Task**: Use Vibe Coding to generate short, analytical JavaScript snippets that can answer simple research questions using the data in the Google Sheet.
+- **Procedure**:
+  1. **Formulate Hypothesis**: e.g., "Primary military documents show a higher frequency of 'adversarial' relationships than newspaper editorials."
+  2. **Generate Code**: Use Vibe Coding: "Write a JavaScript function that iterates through a list of JSON objects and counts how many objects contain `relationship_type: "adversarial"`."
+  3. **Execute**: Run the code snippet on the data in the Sheet to get a numerical answer.
+- **Goal**: Prove that a high-level research hypothesis can be answered in **seconds** using code generated on-demand. This demonstrates the method; to test an actual research hypothesis you would be much more systematic and exhaustive about both data collection and measurement.
+
+# Activity 3: Geospatial Referencing and Comparison (30 Min)
+
+## Table Exercise: Mapping the Data (Illustrating)
+
+- **Task**: Use Vibe Coding to generate an app that extracts geographical references from a source text and visualizes their location for comparison.
+- **Procedure**:
+  1. **Extraction Prompt**: "Generate a **JavaScript function** that takes a text input and uses the Gemini API to extract **up to five distinct geographic locations** and output them as a JSON array of objects, each containing a `location_name` and estimated `latitude` and `longitude`."
+  2. **Visualization Prompt**: "Generate a single-file **HTML app** that includes a basic map display and a JavaScript function to plot the coordinates from the previous JSON array as markers."
+  3. **Test & Compare**: Run the full app using the text below and verify: Did the AI correctly assign the Lat/Long coordinates to the historical location?
+- **Goal**: Use the **Illustrating** primitive to verify the accuracy of the AI's geospatial knowledge against the known facts (Comparison).
+
+### Test Text for Geocoding
+
+!!!!! NEED !!!!!
+
+# Any questions?
+
