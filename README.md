@@ -25,7 +25,7 @@ The shared research domain for the entire semester is **Digital Archives of the 
 - [Wk 03. Jan 22. Data Acquisition and Preparation for Custom Corpus](<./Wk03>)
 - [Wk 04. Jan 29. From Research Idea to AI Prototype (Vibe Coding)](<./Wk04>)
 - [Wk 05. Feb 5. Structured Data: JSON In, JSON Out](<./Wk05>)
-- Wk 06. Feb 12. Verification, Grounding, and Systematic Comparison
+- [Wk 06. Feb 12. Verification, Grounding, and Systematic Comparison](<./Wk06>)
 - Wk 07. Feb 19. SPRING READING WEEK - NO CLASS
 - Wk 08. Feb 26. Deep Synthesis and Knowledge Generation (Workspace Integration)
 - Wk 09. Mar 5. Coding as Conversation: Custom Research Agents
