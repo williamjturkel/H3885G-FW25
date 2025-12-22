@@ -7,7 +7,7 @@
 ## Moving from Corpus to Dataset
 
 - **Raw Corpus** (Wk 02/03): Dozens of PDF documents. Comparison is slow, anecdotal, and qualitative. NotebookLM for analysis.
-- **JSON Dataset** (Wk 05): Dozens of JSON objects (Data Points). Comparison is fast, systematic, and quantitative. Vibe coded apps for analysis.
+- **JSON Dataset** (Wk 05): Hundreds of JSON objects (Data Points). Comparison is fast, systematic, and quantitative. Vibe coded apps for analysis.
 - **The Comparison Primitive**: We can now ask questions across the entire dataset that would have been impossible before: e.g., "What percentage of documents mentioning 'Guerilla Tactics' also score '4' or higher on the 'Confidence Score'?"
 
 # Computational Dataset Structure
@@ -32,14 +32,14 @@ The information that links those two fields is in the _**TEAMNAME-TEST-FILES.csv
 - Input Text Filename
 - Output JSON Filename
 
-So, for example, if _**2C-TEST-FILES.csv**_ contains this record
+So, for example, if _**2C-TEST-FILES.csv**_ contains this record as one of its rows
 
 - Test Number: 5
 - Source Filename: 1A-SOURCE-04.pdf
 - Input Text Filename: 2C-TEST-05.txt
 - Output JSON Filename: 2C-TEST-05.json
 
-Then TEAM_ID is 2C (the team the extracted the JSON file) and Source Document is 1A-SOURCE-04.pdf
+Then TEAM_ID is 2C (the team that extracted the JSON file) and Source Document is 1A-SOURCE-04.pdf
 
 !!!!!!!!!!!!!!!!!!!!!!!! FOOBAR !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! Maybe make a schematic picture showing document flow from A01 through A02 !!!!!
