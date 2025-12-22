@@ -14,7 +14,7 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 - **The "Key"**: The label or category (e.g., `"key_actor"`).
 - **The "Value"**: The actual data extracted from the text (e.g., `"General Westmoreland"`).
 
-### Canonical Vietnam War Research JSON Schema**
+### Canonical Vietnam War Research JSON Schema
 
 ```json
 {
