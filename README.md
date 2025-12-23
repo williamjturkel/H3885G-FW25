@@ -27,7 +27,7 @@ The shared research domain for the entire semester is **Digital Archives of the 
 - [Wk 05. Feb 5. Structured Data: JSON In, JSON Out](<./Wk05>)
 - [Wk 06. Feb 12. Verification, Grounding, and Systematic Comparison](<./Wk06>)
 - Wk 07. Feb 19. SPRING READING WEEK - NO CLASS
-- Wk 08. Feb 26. Deep Synthesis and Knowledge Generation (Workspace Integration)
+- [Wk 08. Feb 26. Deep Synthesis and Knowledge Generation (Workspace Integration)](<./Wk08>)
 - Wk 09. Mar 5. Coding as Conversation: Custom Research Agents
 - Wk 10. Mar 12. Applied Multimodal Embeddings for Discovery
 - Wk 11. Mar 19. Networks and Relational Analysis
