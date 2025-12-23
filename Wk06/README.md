@@ -142,12 +142,8 @@ In this case, Team 2D extracted a _rhetorical_device_ field which the other team
 - **Procedure**:
   1. **Extraction Prompt**: "Generate a **JavaScript function** that takes a text input and uses the Gemini API to extract **up to five distinct geographic locations** and output them as a JSON array of objects, each containing a `location_name` and estimated `latitude` and `longitude`."
   2. **Visualization Prompt**: "Generate a single-file **HTML app** that includes a basic map display and a JavaScript function to plot the coordinates from the previous JSON array as markers."
-  3. **Test & Compare**: Run the full app using the text below and verify: Did the AI correctly assign the Lat/Long coordinates to the historical location?
+  3. **Test & Compare**: Run the full app using the text on the US Defense POW/MIA Accounting Agency, [The Tet Offensive](https://dpaa-mil.sites.crmforce.mil/dpaaFamWebInTetOffensive) webpage and verify: Did the AI correctly assign the Lat/Long coordinates to the historical location?
 - **Goal**: Use the **Illustrating** primitive to verify the accuracy of the AI's geospatial knowledge against the known facts (Comparison).
-
-### Test Text for Geocoding
-
-US Defense POW/MIA Accounting Agency, [The Tet Offensive](https://dpaa-mil.sites.crmforce.mil/dpaaFamWebInTetOffensive).
 
 # Any questions?
 
