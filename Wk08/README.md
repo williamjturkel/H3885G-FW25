@@ -1,5 +1,7 @@
 # Wk 08. Deep Synthesis and Knowledge Generation (Workspace Integration)
 
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Computable Knowledge and Custom Personas. **Scholarly Primitive: Annotating** (Creating specialized, reusable descriptive markup). **Goal**: Learn how to define and embed persistent **System Instructions** and **Schemas** to force the AI to perform specialized research tasks.
 
 # Review: The Value of Annotation
@@ -34,11 +36,25 @@ Computable Knowledge and Custom Personas. **Scholarly Primitive: Annotating** (C
   3. **Draft System Instruction**: Individually draft the exact instruction the Gem will need: "You are the specialist [Persona Name]. Your sole task is to analyze text input and output the three following fields: [Property 1], [Property 2], [Property 3]. Base your output only on the provided text."
 - **Deliverable (Individual)**: The final 3-property Annotation Schema and the Persona's complete System Instruction draft.
 
-# SLIDE 5: Debrief: Generalist vs. Specialist AI
+# Debrief: Generalist vs. Specialist AI
 
 ## Why Agents are Essential for Research
 
 - **Generalist AI**: Good for brainstorming, poor for repeatable research. Tends to drift out of persona.
-- **Specialist Agent (Gem)**: Focused on one task, maintains a consistent persona, and is ideal for applying **uniform annotation** across a large dataset.
-- **Consistency Test**: If the same text is run through the "Rhetoric Analyst Gem" repeatedly, the annotation output should be nearly identical. This is crucial for scientific validity.
+- **Specialist Agent (Persona)**: Focused on one task, maintains a consistent persona, and is ideal for applying **uniform annotation** across a large dataset. (You can also use a Gem for the same purpose).
+- **Consistency Test**: If the same text is run through the "Rhetoric Analyst Persona" (via the API payload) repeatedly, the annotation output should be nearly identical. This is crucial for scientific validity.
 
+# Activity 2: Vibe Coding the API Payload Logic (35 Min)
+
+## Individual Task: Generating the Call Logic
+
+- **Task**: Use Vibe Coding to generate the **new JavaScript function** that includes the System Instruction and Schema in the API request body.
+- **Procedure**:
+
+Define the Change: Explain to Vibe Coding that you are replacing the previous logic: "Generate a JavaScript function called callCustomAnnotator(textInput, systemInstruction, schema) that calls the standard Gemini LLM (gemini-2.5-flash) but sends the systemInstruction and schema within the API payload. The function must return the JSON result."
+
+Generate Replacement: Vibe Coding will produce a complete, self-contained function.
+
+Key Difference: The function now requires passing the System Instruction text and the JSON Schema as variables, embedding them into the request body.
+
+Key Concept: We replace the entire original A02 API logic with a new, Vibe-Coded logic block that carries the persona and rules in its baggage.
