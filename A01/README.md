@@ -45,6 +45,8 @@ In this class you will create two kinds of documents to submit for grading. For 
 
 For **individual assignments**, filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself (_do not include your name or Gmail address_). This is to protect your **privacy** when the contents of the files are uploaded to AI tools. A typical document for an individual assignment submission might be named something like **_CARNEY-MARK-ESSAY.pdf_** if your name is Mark Carney. (He probably won't be in the class).
 
+It is important that you pay close attention to the filenaming instructions and conventions. **Teams and individuals will lose marks if they name files improperly or do not follow these instructions**. The reason for this requirement is that so other people can reuse the products that you create. Consistent naming allows your classmates (and AIs) to know where to find information and what to expect.
+
 ## Corpus Creation (Wk 02. Jan 8-Jan 14)
 
 Between our first and second class meetings, your **team** has to do the following
