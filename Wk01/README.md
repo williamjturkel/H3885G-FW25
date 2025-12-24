@@ -44,7 +44,7 @@ When you come across unfamiliar terms, ask me or Google them.
 - Google Workspace (Supports Teamwork and Creation of Scholarly Products):
     - **Function: Collaboration and Output**. Google Docs, Slides (via Gemini Canvas), Sheets, Chat and Meet.
 
-To use all of the course tools, you are going to need a Gmail account if you do not already have one. **Please email me your Gmail address right now if you haven't already**__.
+To use all of the course tools, you are going to need a Gmail account if you do not already have one. _**Please email me your Gmail address (to william.j.turkel@gmail.com) right now if you haven't already**_.
 
 # Activity 1: Generating Code-Free Prototypes (30 Min)
 
