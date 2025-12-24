@@ -29,7 +29,8 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 - **Task**: Use Vibe Coding in AI Studio to generate the basic, single-file HTML app.
 - **Procedure**:
   1. **Draft the Prompt (Focus on UI)**: Write a prompt that requests a simple, modern-looking web app with a title, a large text input box, and a button. **Crucially, specify the logic must be in JavaScript**.
-  2. **Generate & Refine**: Run the prompt to generate the initial code. Use natural language to make two small functional refinements (e.g., "Make the output area scrollable").
+  2. **Generate**: Run the prompt to generate the initial code. 
+  3. **Refine (Annotation Mode)**: Use natural language to make two small functional refinements (e.g., "Make the output area scrollable").
 - **Goal**: Generate a clean HTML document that serves as the visual shell for the extractor your team will make in Assignment 02.
 
 # Debrief: Code Review and Architecture
@@ -40,7 +41,7 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 - **The Pipeline Check**: Ensure your generated app has the three parts: 1) Input area, 2) Button (the trigger), and 3) Output display area.
 - **Methodological Insight**: If the shell is bad now, the final app will be bad. We prioritize architecture before data logic.
 
-# Activity 2: Drafting the Master Prompt (25 Min)
+# Activity 2: Drafting the Master Prompt (30 Min)
 
 ## Individual Task: Engineering the Top-Down Command
 
@@ -72,10 +73,10 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 ## Complexity Managed by Language
 
 - **Observation**: The final Master Prompt is long and highly prescriptive.
-- **Pedagogical Insight**: This complex paragraph is the equivalent of writing dozens of lines of JavaScript code. You bypassed manual programming by mastering the top-down instruction set.
+- **Pedagogical Insight**: This complex paragraph is the **equivalent of writing dozens of lines of JavaScript code**. You bypassed manual programming by mastering top-down instructions.
 - **Team Handover Link**: This final Master Prompt (not the resulting code) is the true recipe for the Team Portion of A02.
 
-# Activity 3: Prompt Peer Review (25 Min)
+# Activity 3: Prompt Peer Review (20 Min)
 
 ## Table Activity: Critiquing the Blueprint
 
@@ -83,7 +84,7 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 - **Procedure**:
   1. **Exchange**: Share your full Master Prompt text with your tablemates. You could do this through Google Chat.
   2. **Critique**: Identify the single most ambiguous or contradictory instruction in each prompt. Discuss ways you might edit the prompt to correct flaws.
-  3. **AI Assist**: Open a Gemini chat window and use a prompt like this: "I am trying to write a prompt to describe an app for AI studio. Can you make suggestions for improving the prompt? Here it is: `paste in prompt text`"
+  3. **AI Assist**: Open a Gemini chat window and use a prompt like this: "I am trying to write a prompt to describe an app for AI Studio. Can you make suggestions for improving the prompt? Here it is: `paste in prompt text`"
 - **Goal**: Individual students leave with the highest quality, least ambiguous Master Prompt ready for discussion with their A02 team.
 
 # Any questions?
