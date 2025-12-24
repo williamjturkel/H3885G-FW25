@@ -89,3 +89,9 @@ Individual submission, to be uploaded to OWL Brightspace
 - All document filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself. This is to protect your privacy when the contents of the files are uploaded to AI tools.
 - _**LASTNAME-FIRSTNAME-ESSAY.pdf**_
 
+## Screenshots of an Example Entity Extractor
+
+When you are vibe coding, you working in collaboration with an AI that makes a number of decisions about how your app looks and works. You can request changes, but even people who follow the exact same instructions will end up with different working apps. When I tried following the A02 Vibe Coded Entity Extractor instructions in December 2025, I was able to get it working with a few revisions. Here are some screenshots of my app to give you an idea of what yours might look like:
+
+<image src="./Screenshots/a02-example-01.png" width=600 /><br/>
+<image src="./Screenshots/a02-example-02.png" width=600 />
