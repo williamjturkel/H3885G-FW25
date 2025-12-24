@@ -37,11 +37,11 @@ Your Schema Must Define and Extract at Least FOUR entities or relationships per 
   2. **MANDATORY TEST PROTOCOL**: To ensure portability, download the `.html` file and **open it directly in your web browser (Chrome/Firefox) without using AI Studio or Vibe Coding**. The app must function, take text input, and produce valid JSON output without any external dependencies.
   3. Share this fully tested `.html` file with all teammates.
   4. After creating the app, you must generate five final test runs for your submission. This requires two steps: **Data Preparation** and **Validation**.
-    1. **Data Preparation (Isolating the Clean Text)**:
-      - You must use the **NotebookLM** tool to isolate the specific text required for each test run from the larger PDF documents in the Class Data Pool.
-      - **Method**: Open the PDF source in NotebookLM, locate a chapter or rich section, copy a segment (approx. 500-1000 words) that contains the entities your Extractor targets, and paste it into a clean text editor (like a Google Doc) to remove headers, footers, and page numbers. **This clean text is the mandatory input for your Extractor App**. For each test run, save the input file as a Text file named _**TEAMNAME-TEST-01.txt**_ to _**TEAMNAME-TEST-05.txt**_. Create a Google Sheets file named _**TEAMNAME-TEST-FILES.csv**_ containing information about your test runs (Test Number, Source Filename, Input Text Filename, Output JSON Filename).
-    2. **Validation & Extraction**:
-      - Run the final, optimized Extractor App (your team's .html file) on the 5 clean text segments you prepared in the previous step. The output will consist of 5 valid JSON files will be submitted as part of the team portion of your assignment. Name these files _**TEAMNAME-TEST-01.json**_ to _**TEAMNAME-TEST-05.json**_ to correspond to the input text files.
+     1. **Data Preparation (Isolating the Clean Text)**:
+        - You must use the **NotebookLM** tool to isolate the specific text required for each test run from the larger PDF documents in the Class Data Pool.
+        - **Method**: Open the PDF source in NotebookLM, locate a chapter or rich section, copy a segment (approx. 500-1000 words) that contains the entities your Extractor targets, and paste it into a clean text editor (like a Google Doc) to remove headers, footers, and page numbers. **This clean text is the mandatory input for your Extractor App**. For each test run, save the input file as a Text file named _**TEAMNAME-TEST-01.txt**_ to _**TEAMNAME-TEST-05.txt**_. Create a Google Sheets file named _**TEAMNAME-TEST-FILES.csv**_ containing information about your test runs (Test Number, Source Filename, Input Text Filename, Output JSON Filename).
+     2. **Validation & Extraction**:
+        - Run the final, optimized Extractor App (your team's .html file) on the 5 clean text segments you prepared in the previous step. The output will consist of 5 valid JSON files will be submitted as part of the team portion of your assignment. Name these files _**TEAMNAME-TEST-01.json**_ to _**TEAMNAME-TEST-05.json**_ to correspond to the input text files.
 
 ### Submitting Test Files to Class Data Pool
 
