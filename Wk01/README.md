@@ -39,6 +39,7 @@ When you come across unfamiliar terms, ask me or Google them.
   - **Scholarly Primitive: Referring** (Source Grounding). NotebookLM draws on and cites your sources rather than using LLM's general knowledge    
 - **Google AI Studio / Vibe Coding (Supports Prototyping)**:
     - **Function: Tool Building**. We use natural language prompts to generate custom web apps and utility scripts (Extractors, Visualizations, etc.)
+    - **Critical Mandate: All custom apps must be generated as a single, standalone HTML file using inline JavaScript/CSS only.**
     - **Scholarly Primitive: Sampling, Representing**.
 - Google Workspace (Supports Teamwork and Creation of Scholarly Products):
     - **Function: Collaboration and Output**. Google Docs, Slides (via Gemini Canvas), Sheets, Chat and Meet.
