@@ -91,7 +91,9 @@ Individual submission, to be uploaded to OWL Brightspace
 
 ## Screenshots of an Example Entity Extractor
 
-When you are vibe coding, you working in collaboration with an AI that makes a number of decisions about how your app looks and works. You can request changes, but even people who follow the exact same instructions will end up with different working apps. When I tried following the A02 Vibe Coded Entity Extractor instructions in December 2025, I was able to get it working with a few revisions. Here are some screenshots of my app to give you an idea of what yours might look like:
+When you are vibe coding, you working in collaboration with an AI that makes a number of decisions about how your app looks and works. You can request changes, but even people who follow the exact same instructions will end up with different working apps. When I tried following the A02 Vibe Coded Entity Extractor instructions in December 2025, I was able to get it working with a few revisions. To test it I used the AP news story Anirhuddha Ghosal and Hau Dinh, ["The Vietnam War ended 50 years ago, but the battle with Agent Orange continues"](https://apnews.com/article/vietnam-war-anniversary-agent-orange-0829caefe48cc11fb88ab27982da922b) (April 30, 2025). To extract the text from the messy webpage, I used the [Text Extractor](https://chromewebstore.google.com/detail/text-extractor/enihofloaglndlbpaockonfoehiflmma) Chrome Browser extension.
+
+Here are some screenshots of my app to give you an idea of what yours might look like:
 
 <image src="./Screenshots/a02-example-01.png" width=600 /><br/>
 <image src="./Screenshots/a02-example-02.png" width=600 />
