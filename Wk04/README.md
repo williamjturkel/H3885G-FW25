@@ -19,7 +19,7 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 |Component|Purpose|Prompt Instruction Example|
 |---|---|---|
 |**1. UI/Architecture**|Defines the interface and code language.|"Generate a single-file HTML/JS app with a large text input and a button..."|
-|**2. Logic/Action**|Defines the API call and data flow.|"...when the button is clicked, call the Gemini API and send the text input..."|
+|**2. Logic/Action**|Defines the API call and data flow.|"...when the button is clicked, call the Gemini API and send the text input to extract entities from within the text..."|
 |**3. Data Schema (Wk 05 Preview)**|Defines the structure of the output.|"...The response MUST be valid JSON, strictly following this schema: `paste schema here`"|
 
 # Activity 1: Generating the Minimal UI Scaffold (25 Min)
