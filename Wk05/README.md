@@ -34,12 +34,12 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 ## Analyzing the Canonical Vietnam War JSON Schema
 
 - **The Schema (The Rules)**: In Week 04, we used a specific set of rules to tell the AI what we wanted.
-  - **Rule**: `"sentiment_score": { "type": "INTEGER" }`
-  - **The Instance (The Result)**: This is what the AI produces when it reads a document and follows those rules.
+  - _Rule_: `"sentiment_score": { "type": "INTEGER" }`
+- **The Instance (The Result)**: This is what the AI produces when it reads a document and follows those rules.
 
 **Example Instance**:
 
-```jason
+```json
 {
   "key_actor": "Robert McNamara",
   "date_of_event": "1965-02-07",
@@ -54,7 +54,7 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 
 ## Trust, but Verify the Data
 
-- **Problem**: The AI generated the code, but did it generate the right code? Did it adhere to the JSON schema 100% of the time?
+- **Problem**: The AI generated the code, but did it generate the _right_ code? Did it adhere to the JSON schema 100% of the time?
 - **Verification**: The process of ensuring that the extracted data is accurate and fits the defined schema.
 - **Testing against Unfamiliar Data**: Since your team used a corpus created by a different team, this immediately tests the reliability of your Extractor on data it was not tuned for.
 
@@ -71,7 +71,7 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 
 ## Table Activity: Finding Errors in Representation
 
-- **Task**: Run your team's Extractor App on text from **five** documents from the sub-corpus.
+- **Task**: Run your team's Extractor App **live in the AI Studio preview window** on text from **five** clean documents from the sub-corpus.
 - **Procedure**:
   1. **Run Extraction**: Paste text and run the analysis.
   2. **Validate Structure**: Check if the output is **valid JSON**. (If not, the schema definition was bad).
@@ -83,19 +83,19 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 
 ## Preparing for Your Individual Essay for A02
 
-- **Discussion**: What error did you find that cannot be fixed by editing the prompt? (e.g., the corpus simply too vague to provide an "integer confidence score").
+- **Discussion**: What error did you find that _cannot_ be fixed by editing the prompt? (e.g., the corpus simply too vague to provide an "integer confidence score").
 - **Systemic Flaw**: The issue lies in the **design** of the JSON Schema itself. This flaw is the core subject of the Individual Essay for A02.
 - **Key Question**: Does our **Representation** (the schema) truly serve our research question, or is it forcing the data into a mold that destroys meaning?
 
 # Activity 2: Immediate Analytical Querying (40 Min)
 
-## Table Activity: Testing the Computational Advantage
+## Table Activity: Visualizing the Computational Advantage
 
-- **Task**: Use Vibe Coding to generate a quick **JavaScript utility script** that runs simple analysis on the extracted JSON data, proving the value of structure.
+- **Task**: Use Vibe Coding to generate a dedicated **Data Visualization App** that proves the value of your structured JSON data.
 - **Procedure**:
-  1. **Identify Insight**: Formulate a simple research question based on the canonical schema (e.g., "What is the average 'Sentiment Score' for all documents extracted so far?").
-  2. **Use Vibe Coding**: "Generate a **JavaScript** function that takes an array of JSON objects (the data we just extracted) and calculates the average value of the `sentiment_score` key."
-  3. **Execute & Share**: Run the script in the browser's console using your extracted JSON data. Discuss the numerical result with your tablemates.
-- **Goal**: Immediately demonstrate the computational power of structured data, connecting the "Representing" primitive to the "Comparing" primitive (Week 06).
+  1. **Prepare Data**: Copy and aggregate the five JSON outputs generated in Activity 1.
+  2. **Vibe Code Prompt**: Start a new Vibe Coding session. Prompt for a single-file HTML app that includes a **text input area** for pasting the combined JSON data, a button, and the **D3.js** library. The app must generate a **labeled Pie Chart** showing the frequency distribution of the `doc_topic_tag` field (Policy, Military, Cultural) when the button is clicked..
+  3. **Execute & Analyze**: Paste your combined JSON data into the text input area, click the button, and run the preview.
+- **Goal**: Immediately demonstrate the computational power of structured data, by visually connecting the "Representing" primitive to the "Illustrating" primitive.
 
 # Any questions?
