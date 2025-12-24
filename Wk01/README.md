@@ -43,6 +43,7 @@ When you come across unfamiliar terms, ask me or Google them.
     - **Scholarly Primitive: Sampling, Representing**.
 - Google Workspace (Supports Teamwork and Creation of Scholarly Products):
     - **Function: Collaboration and Output**. Google Docs, Slides (via Gemini Canvas), Sheets, Chat and Meet.
+    - **Useful Hint**. Create a Google Drive folder for this class and call it something like H3885-FW25. Within that folder, create new folders for Wk01 through Wk13. During each week's class, use the folder to store things that you use or create in class. If your app outputs a file, save a copy in the folder. If you work with people at your table to design a prompt, keep track of the different versions that you try. Save screenshots of working apps. It will be much easier for you to do the assignments if you have a record of the results you got when you tried things in class.
 
 To use all of the course tools, you are going to need a Gmail account if you do not already have one. _**Please email me your Gmail address (to william.j.turkel@gmail.com) right now if you haven't already**_.
 
@@ -62,7 +63,7 @@ Table activities give you a chance to work with one or two other people and figu
     6. If you have time, try some of the other prompts.
 - **Sample Research Tool Prompts**:
   - Create a tool that summarizes a document, **extracts** three key entities and formats them as a bulleted list
-    - Test with: [National Vietnam War Veterans Day](https://www.nixonlibrary.gov/news/national-vietnam-war-veterans-day) from the Nixon Presidential Library
+    - Test with: [National Vietnam War Veterans Day](https://www.nixonlibrary.gov/news/national-vietnam-war-veterans-day) from the Nixon Presidential Library.
   - Build a simple web tool that accepts two quotes and returns the **semantic distance** between them as a percentage.
     - Test with these quotes from the National Vietnam War Veterans Day post, trying them in pairs (a vs. b, a vs. c, b vs. c):
       1. "Some protesters, who had clamored for the troops’ return, now gathered at airports to meet the soldiers with angry slogans. Many service members were even encouraged to change out of their uniforms before they landed to avoid being confronted by the protesters."
@@ -73,7 +74,7 @@ Table activities give you a chance to work with one or two other people and figu
       1. "Officially designated in 2017, National Vietnam Veterans Day has its origins with President Nixon’s February 26, 1974, proclamation stating that “Friday, March 29, 1974, shall be a day of commemoration…” as well as “urging all citizens of every age to participate in the events of this day as one means of honoring those men and women who served their country faithfully and courageously during the Vietnam conflict.”"
       2. "U.S. public opinion supporting involvement was generally positive in the beginning. However, with the increasing death toll and no clear end of the war in sight, much of the public’s view of the war had become increasingly unfavorable, resulting in considerable unrest at home. In 1968, the Republican candidate for president, Richard Nixon, ran heavily on a campaign pledge of getting the country out of Vietnam." 
   - Create an HTML app that takes an essay as input and **outputs a JSON schema** detailing the argument's main premise, evidence, and conclusion.
-    - Test with: [National Vietnam War Veterans Day](https://www.nixonlibrary.gov/news/national-vietnam-war-veterans-day) from the Nixon Presidential Library
+    - Test with: [National Vietnam War Veterans Day](https://www.nixonlibrary.gov/news/national-vietnam-war-veterans-day) from the Nixon Presidential Library.
    
 # Debrief: Code from Natural Language
 
