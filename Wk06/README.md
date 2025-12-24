@@ -2,6 +2,8 @@
 
 **Scholarly Primitive: Comparing** (Systematic analysis of structured data). **Goal**: Use Vibe Coding to generate analytical code that confirms (or refutes) research hypotheses using your new JSON dataset.
 
+# !!!!!!!!!!!!!!!!!! NEED TO REVIEW THIS AGAINST REVISED SLIDES FROM GEMINI !!!!!!!!!!!!!!!!!!
+
 # Review: The Structured Data Advantage
 
 ## Moving from Corpus to Dataset
