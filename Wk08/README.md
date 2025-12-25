@@ -61,7 +61,7 @@ Computable Knowledge and Custom Personas. **Scholarly Primitive: Annotating** (C
 - **Context**: You have the finalized **A02 Master Prompt Text** (from previous weeks) and a working Annotation Logic (Activity 2). You need to merge them.
 - **Procedure**:
   1. **Start with A02 Text**: Take the finalized **A02 Master Prompt Text** (the one that generated the UI) as your starting document.
-  2. **Merge and Replace**: Edit the A02 prompt text to instruct the AI to:
+  2. **Merge and Replace**: Edit the A02 prompt text to:
      - **Keep the UI identical**.
      - **Delete the old A02 JSON Schema**.
      - **Inject the new A03 System Instruction and Schema**.
