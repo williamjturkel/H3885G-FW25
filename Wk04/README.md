@@ -89,6 +89,6 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 
 # Assignment 02 Overview
 
-[Assignment Page](<./A02>)
+[Assignment Page](<../A02>)
 
 # Any questions?
