@@ -15,7 +15,7 @@ The shared research domain for the entire semester is **Digital Archives of the 
 
 - [Wk 01. Jan 8 to Wk 03. Jan 22. Assignment 01: Agent Persona and Grounding](<./A01>)
 - [Wk 04. Jan 29 to Wk 06. Feb 12. Assignment 02: Vibe-Coded Entity Extractor](<./A02>)
-- Wk 08. Feb 26 to Wk 10. Mar 12. Assignment 03: Annotation Agent
+- [Wk 08. Feb 26 to Wk 10. Mar 12. Assignment 03: Annotation Agent](<./A03>)
 - Wk 11. Mar 19 to Wk 13. Apr 2. Assignment 04: Final Computational Essay Tool
 
 ### Schedule
