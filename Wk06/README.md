@@ -128,24 +128,23 @@ In this case, Team 2D extracted a _rhetorical_device_ field which the other team
 
 # Activity 2: Vibe Coding for Analysis (25 Min)
 
-## Table Activity: Generating Comparison Scripts
+## Table Activity: Generating a Comparison App (Illustrating)
 
-- **Task**: Use Vibe Coding to generate short, analytical JavaScript snippets that can answer simple research questions using the data in the Google Sheet.
+- **Task**: Use Vibe Coding to generate a simple **Analysis App** that immediately visualizes a core finding from the data just loaded into the Sheet.
 - **Procedure**:
   1. **Formulate Hypothesis**: e.g., "Primary military documents show a higher frequency of 'adversarial' relationships than newspaper editorials."
-  2. **Generate Code**: Use Vibe Coding: "Write a JavaScript function that iterates through a list of JSON objects and counts how many objects contain `relationship_type: "adversarial"`."
-  3. **Execute**: Run the code snippet on the data in the Sheet to get a numerical answer.
-- **Goal**: Prove that a high-level research hypothesis can be answered in **seconds** using code generated on-demand. This demonstrates the method; to test an actual research hypothesis you would be much more systematic and exhaustive about both data collection and measurement.
+  2. **Vibe Code the Analysis App**: Start a new Vibe Coding session. Prompt for a single-file HTML app that includes a **text input area for pasting the aggregated CSV data** and a button. When clicked, the app must calculate and display the **percentage of documents** in the dataset where the `doc_topic_tag` is "Policy."
+  3. **Execute**: Paste the data from the Google Sheet into the app and run the analysis.
+- **Goal**: Demonstrate that complex calculations and numerical summaries (Comparison) can be achieved in seconds using a Vibe-Coded app.
 
 # Activity 3: Geospatial Referencing and Comparison (30 Min)
 
 ## Table Exercise: Mapping the Data (Illustrating)
 
-- **Task**: Use Vibe Coding to generate an app that extracts geographical references from a source text and visualizes their location for comparison.
+- **Task**: Use Vibe Coding to generate a single, integrated **Geospatial Extractor/Map App** that extracts locations from a source text and plots them instantly.
 - **Procedure**:
-  1. **Extraction Prompt**: "Generate a **JavaScript function** that takes a text input and uses the Gemini API to extract **up to five distinct geographic locations** and output them as a JSON array of objects, each containing a `location_name` and estimated `latitude` and `longitude`."
-  2. **Visualization Prompt**: "Generate a single-file **HTML app** that includes a basic map display and a JavaScript function to plot the coordinates from the previous JSON array as markers."
-  3. **Test & Compare**: Run the full app using the text on the US Defense POW/MIA Accounting Agency, [The Tet Offensive](https://dpaa-mil.sites.crmforce.mil/dpaaFamWebInTetOffensive) webpage and verify: Did the AI correctly assign the Lat/Long coordinates to the historical location?
+  1. **Write the Master Prompt**: Formulate a single Vibe Coding prompt that requests: "Generate a **single-file HTML app** with a text input area. When the button is clicked, use the Gemini API to extract **up to five distinct geographic locations** from the text, and output them as a JSON array containing `location_name` and estimated `latitude`/`longitude`. **The app must then immediately render a map display** and plot the extracted coordinates as markers."
+  2. **Test & Compare**: Run the full app using the text on the US Defense POW/MIA Accounting Agency, [The Tet Offensive](https://dpaa-mil.sites.crmforce.mil/dpaaFamWebInTetOffensive) webpage and verify: Did the AI correctly assign the Lat/Long coordinates to the historical location?
 - **Goal**: Use the **Illustrating** primitive to verify the accuracy of the AI's geospatial knowledge against the known facts (Comparison).
 
 # Any questions?
