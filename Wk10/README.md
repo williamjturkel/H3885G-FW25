@@ -45,6 +45,16 @@
      - Take a text input.
      - Use the Gemini API to extract **all named entities** and their relationships from the text.
      - Output the data in a strict **JSON array** of Node/Edge pairs.
-  3. **Test**: Run the app on a sample text. Does the JSON output correctly list the relationships?
+  3. **Test**: Run the app on the text from David Coleman and Marc Selverstone, ["Lyndon B. Johnson and the Vietnam War"](https://prde.upress.virginia.edu/content/Vietnam) (2014) at the University of Virginia's Presidential Recordings Digital Edition. Does the JSON output correctly list the relationships?
 - **Goal**: Create clean, raw Network Data (JSON) ready for visualization.
+
+# Debrief: Network Data Flaws
+
+## Critiquing the Computational Relationship
+
+- **Discussion**: Look at your Network JSON output.
+  - **Ambiguity**: Did the AI define the `Relationship_Type` clearly enough? (e.g., Is "Worked with" a strong or weak edge?)
+  - **Computational Bias**: Did the AI's internal knowledge bias its interpretation of the relationship when it wasn't explicit in the source text?
+- **Key Point**: **Representing** relationships computationally is the most challenging primitive, as it requires the highest level of interpretation from the AI.
+
 
