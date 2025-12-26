@@ -13,6 +13,7 @@
 - George Washington University, The National Security Archive, ["Vietnam Project"](https://nsarchive.gwu.edu/project/vietnam-project)
 - George Washington University, The National Security Archive, ["The CIA's Vietnam Histories"](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB284/index.htm)
 - Texas Tech University, The Vietnam Center & Sam Johnson Vietnam Archive, ["The Virtual Vietnam Archive"](https://www.vietnam.ttu.edu/virtualarchive/)
+- University of Virginia, Miller Center, ["Presidential Recordings Digital Edition"](https://prde.upress.virginia.edu/)
 - University of Washington, ["Pacific Northwest Antiwar and Radical History Project"](https://depts.washington.edu/antiwar/photosdocs.shtml)
 - US Director of National Intelligence, [Tet Declassified](https://www.intelligence.gov/tet-declassified)
 - US Federal Bureau of Investigation, The Vault, ["Anti-War Movement"](https://vault.fbi.gov/anti-war-movement)
