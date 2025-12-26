@@ -57,4 +57,24 @@
   - **Computational Bias**: Did the AI's internal knowledge bias its interpretation of the relationship when it wasn't explicit in the source text?
 - **Key Point**: **Representing** relationships computationally is the most challenging primitive, as it requires the highest level of interpretation from the AI.
 
+# Activity 2: The Network Visualization App (50 Min)
 
+## Table Activity: Illustrating the Structure
+
+- **Task**: Generate a visualization app to display the network JSON created in Activity 1.
+- **Procedure**:
+  1. **Define Visualization Prompt**: Use Vibe Coding to generate a **single-file HTML app** that includes **a text input area for pasting Network JSON data** (the output from Activity 1). The prompt must request the use of a graphing library to render a force-directed network graph when a button is clicked.
+  2. **Execute**: Paste the JSON output from the Network Extractor (Activity 1) into the Visualization App's input field, and view the graph in the preview window.
+  3. **Analyze**: Inspect the resulting network graph. Which nodes are most central (highest influence)? Which nodes are poorly connected?
+- **Goal**: Connect the **Illustrating** primitive (the graph) back to the **Comparison** primitive (analyzing which relationships are most frequent).
+
+# Debrief: Visualization as Argument
+
+## Reading the Network Graph
+
+- **Observation**: The visualization is an argument. The placement, size, and clustering of nodes are not objective; they are determined by the visualization algorithm (which the AI chose).
+- **Critical Question**: Did the graph reveal something about the data that you could not see in the JSON text? (e.g., two historical figures you didn't realize were central to a military action).
+- **Measurement**: There are precisely defined measures of degree centrality, clusters (communities) and other network properties we discussed in this class. One modification of the Network Visualization App might be to have it calculate these measures and output one or more CSV files.
+- **Final Primitive**: This activity concludes the cycle of scholarly primitives—from **Discovering** (Wk 01) to **Illustrating** (Wk 10).
+
+# Any questions?
