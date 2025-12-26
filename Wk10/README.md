@@ -2,3 +2,49 @@
 
 **Scholarly Primitive: Illustrating** (Visualizing complex data). **Goal**: Use Vibe Coding to build a tool that extracts complex relational data and visualizes it as a network graph.
 
+# Network Analysis: The Building Blocks
+
+## Anatomy of a Graph
+
+- **The Concept**: A network graph is a map of relationships. It moves us from studying _individual things_ to studying the _connections between things_.
+- **The Two Core Atoms**:
+  1. **Nodes (Vertices)**: The entities in the system.
+     - _Examples_: A Person, A Document, A Location, An Organization.
+  2. **Edges (Links)**: The relationship connecting two nodes.
+     - **Examples**: "Wrote_Letter_To", "Commanded_Unit", "Located_In".
+- **Visual Metaphor**: If a spreadsheet is a list of contacts, a network graph is a map showing who knows whom.
+
+# Network Analysis: What We Measure
+
+## Reading the Structure
+
+- **Why do we graph data?** To see patterns of influence and community that are invisible in a list.
+- **Key Metrics**:
+  - **Degree Centrality (The Hub)**: Which node has the most connections? (e.g., The General who issues the most orders).
+  - **Edge Weight (The Strength)**: How thick is the connection? (e.g., Two soldiers who served together in _five_ different operations have a "heavier" weight than those who served in one).
+  - **Clusters (Communities)**: Groups of nodes that are more connected to each other than to the rest of the network.
+ 
+# Applying Network Thinking to our Data
+
+## From JSON Tables to Connected Graphs
+
+- **The Shift**: For Weeks 01-09, we treated our data as **Rows** (independent documents). Now, we treat them as **Connected Points**.
+- **Our Data Transformation**:
+  - **Nodes**: The "Key Actors" or "Key Entities" you extracted in A02/A03.
+  - **Edges**: The interactions between them that we will extract today.
+- **The Research Question**: In addition to asking questions like "How many times does General Westmoreland appear?" we can begin asking questions like "Who is the bridge between the 'Military' cluster and the 'Policy' cluster?"
+
+# Activity 1: The Network Extractor App (40 Min)
+
+## Table Activity: Representing Connections
+
+- **Task**: Generate a specialized Extractor App designed only to find and structure relationships.
+- **Procedure**:
+  1. **Define Schema**: The schema must output two nodes and the connecting edge (e.g., `Node_A`, `Node_B`, `Relationship_Type`).
+  2. **Write Master Prompt**: Use Vibe Coding to generate a **single-file HTML app** (the Network Extractor). The prompt must instruct the app to:
+     - Take a text input.
+     - Use the Gemini API to extract **all named entities** and their relationships from the text.
+     - Output the data in a strict **JSON array** of Node/Edge pairs.
+  3. **Test**: Run the app on a sample text. Does the JSON output correctly list the relationships?
+- **Goal**: Create clean, raw Network Data (JSON) ready for visualization.
+
