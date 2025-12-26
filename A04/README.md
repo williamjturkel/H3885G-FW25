@@ -17,6 +17,31 @@ After our Mar 19 meeting your **team** has to do the following
   2. **Semantic Discovery**: A separate input that uses the LLM to perform a **Semantic Search** on user-pasted text and categorize it based on similarity to pre-defined categories (Wk 11 concept).
   3. **Visualization**: A tool that accepts a list of extracted data points (e.g., from the network activity) and instantly generates a **D3.js Visualization** (Wk 10/11 concept).
 
+### The Synthesis Pipeline: Proving Methodological Control
+
+- **Feasibility Check**: The A04 Master Prompt must generate an app that works in one attempt. This proves your mastery of the top-down methodology (Wk 04).
+- **Verification Check (Referring)**: The prompt must include a System Instruction that forces the LLM to **cite its source documents** (the user-pasted text input) in its output, upholding the **Referring** primitive.
+- **Test for Success**: The single application must demonstrate that complex research operations (extraction, annotation, classification, visualization) can be achieved via Vibe Coding.
+
+## The Discovery Reflection (Wk 13-Wk 14. Mar 25-Apr 8)
+
+### The Computational Essay Component
+
+- **Task**: Submit the culminating research artifact, focused on the power of advanced discovery using the synthesized tool.
+  - **Part A: Visualization/Discovery Artifact**:
+    - Submit one high-quality visualization (e.g., the Semantic Clustering visualization or the Network Graph) generated using your A04 tool.
+    - This artifact must illustrate the discovery made in your essay.
+  - **Part B: Critical Methodological Reflection (500 Words)**:
+    - Write an essay focused on a **single, surprising finding** you made using one of the complex analysis features (Semantic Discovery or Visualization) in the A04 agent.
+
+### Individual Critique: Guiding Questions to Articulate the Computational Advantage
+
+The 500-word reflection must explicitly link the finding back to the **Scholarly Primitives** and the **Top-Down** methodology.
+
+- **The Finding**: What pattern did the Semantic Discovery or Visualization reveal that you would have missed with manual reading?
+- **The Tools**: How did the Custom Annotation Persona's structured output (A03) make the final visualization (Wk 11) more meaningful?
+- **Synthesis**: How does the finished, integrated A04 Master Prompt represent a fundamentally superior research workflow compared to the separate A02 and A03 tools?
+
 ## What You Have to Hand In
 
 ### Team Leader
@@ -30,4 +55,10 @@ Team submission, to be uploaded to OWL Brightspace along with your individual as
 - _**TEAMNAME-SYNTHESIS-AGENT-SCREENSHOT-01.png**_ to _**TEAMNAME-SYNTHESIS-AGENT-SCREENSHOT-n.png**_:
   - One or more screenshots of the fully generated and working app as it appears in the AI Studio Code/Preview windows. (Proof of a working artifact).
 
+### All Students
 
+Individual submission, to be uploaded to OWL Brightspace
+
+- All document filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself. This is to protect your privacy when the contents of the files are uploaded to AI tools.
+- _**LASTNAME-FIRSTNAME-VISUALIZATION.pdf**_
+- _**LASTNAME-FIRSTNAME-ESSAY.pdf**_
