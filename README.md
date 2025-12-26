@@ -16,7 +16,7 @@ The shared research domain for the entire semester is **Digital Archives of the 
 - [Wk 01. Jan 8 to Wk 03. Jan 22. Assignment 01: Agent Persona and Grounding](<./A01>)
 - [Wk 04. Jan 29 to Wk 06. Feb 12. Assignment 02: Vibe-Coded Entity Extractor](<./A02>)
 - [Wk 08. Feb 26 to Wk 10. Mar 12. Assignment 03: Annotation Agent](<./A03>)
-- Wk 11. Mar 19 to Wk 13. Apr 2. Assignment 04: Final Computational Essay Tool
+- Wk 11. Mar 19 to Wk 14. Apr 9. Assignment 04: Final Computational Essay Tool
 
 ### Schedule
 
@@ -30,6 +30,7 @@ The shared research domain for the entire semester is **Digital Archives of the 
 - [Wk 08. Feb 26. Deep Synthesis and Knowledge Generation (Workspace Integration)](<./Wk08>)
 - [Wk 09. Mar 5. Coding as Conversation: Custom Research Agents](<./Wk09>)
 - [Wk 10. Mar 12. Networks and Relational Analysis](<./Wk10>)
-- Wk 11. Mar 19. Applied Multimodal Embeddings for Discovery
-- Wk 12. Mar 26. Deploying the Grounded Research Agent (RAG)
-- Wk 13. Apr 2. The Final Computational Essay & Advanced Multi-Modal Data
+- Wk 11. Mar 19. Semantic Search and Clustering
+- Wk 12. Mar 26. Synthesis and Final Agent Prompting
+- Wk 13. Apr 2. Final Review
+- Wk 14. Apr 9. The War Room Analyst: Vibe-Coded Simulation
