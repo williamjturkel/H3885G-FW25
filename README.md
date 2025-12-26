@@ -30,7 +30,7 @@ The shared research domain for the entire semester is **Digital Archives of the 
 - [Wk 08. Feb 26. Deep Synthesis and Knowledge Generation (Workspace Integration)](<./Wk08>)
 - [Wk 09. Mar 5. Coding as Conversation: Custom Research Agents](<./Wk09>)
 - [Wk 10. Mar 12. Networks and Relational Analysis](<./Wk10>)
-- Wk 11. Mar 19. Semantic Search and Clustering
+- [Wk 11. Mar 19. Semantic Search and Clustering](<./Wk11>)
 - Wk 12. Mar 26. Synthesis and Final Agent Prompting
 - Wk 13. Apr 2. Final Review
 - Wk 14. Apr 9. The War Room Analyst: Vibe-Coded Simulation
