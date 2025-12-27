@@ -39,3 +39,5 @@
   1. Which assignment required the most methodological rigor?
   2. Which scholarly primitive (Representing, Annotating, Discovery, etc.) do you feel is the most powerful?
   3. If you were to create a "Version 2" of your A04 agent, what single, precise sentence would you add to the Master Prompt to improve its reliability?
+
+# Any questions?
