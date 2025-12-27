@@ -23,3 +23,22 @@
   5. **Review**: Ensure the prompt explicitly asks for **D3.js** or a similar graphing library, and specifies the use of the **standard Gemini LLM**. Discuss your prompt with people at your table.
 - **Goal**: Produce the single, integrated text block that represents the final complexity of your research tool.
 
+# Debrief: Critique of the Master Prompt
+
+## Finding Contradictions
+
+- **Discussion**: Which prompts are too vague? (e.g., "Use a chart to show the data" vs. "Generate a D3.js scatter plot of [X-axis] vs. [Y-axis]").
+- **The Contradiction Trap**: Does asking the AI to perform a Semantic Search and _also_ output a strict JSON array (A02 logic) cause a failure? (Often, it does. Synthesis requires finding the precise balance).
+
+# Activity 2: Vibe Coding the Final Agent (45 Min)
+
+## Table Activity: Generating the Synthesized App
+
+- **Task**: Run the finalized Master Prompts to generate the functional A04 Computational Essay Tool.
+- **Procedure**:
+  1. **Consensus**: Select the single best **A04 Master Prompt** from Activity 1.
+  2. **Generate**: Run the prompt in a clean AI Studio session.
+  3. **Test**: Run a sample text through all three features (Extraction, Semantic Search, Visualization) in the preview window. Does the app successfully perform **all three tasks** without crashing?
+- **Goal**: Prepare to finalize the **A04 Master Prompt Text** with your Assignment team for submission.
+
+# Any questions?
