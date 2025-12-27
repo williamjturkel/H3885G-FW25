@@ -32,5 +32,5 @@ The shared research domain for the entire semester is **Digital Archives of the 
 - [Wk 10. Mar 12. Networks and Relational Analysis](<./Wk10>)
 - [Wk 11. Mar 19. Semantic Search and Clustering](<./Wk11>)
 - [Wk 12. Mar 26. Synthesis and Final Agent Prompting](<./Wk12>)
-- Wk 13. Apr 2. Final Review
+- [Wk 13. Apr 2. Final Review](<./Wk13>)
 - Wk 14. Apr 9. The War Room Analyst: Vibe-Coded Simulation
