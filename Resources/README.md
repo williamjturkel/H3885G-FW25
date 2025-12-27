@@ -15,6 +15,7 @@
 - Texas Tech University, The Vietnam Center & Sam Johnson Vietnam Archive, ["The Virtual Vietnam Archive"](https://www.vietnam.ttu.edu/virtualarchive/)
 - University of Virginia, Miller Center, ["Presidential Recordings Digital Edition"](https://prde.upress.virginia.edu/)
 - University of Washington, ["Pacific Northwest Antiwar and Radical History Project"](https://depts.washington.edu/antiwar/photosdocs.shtml)
+- US Central Intelligence Agency, Reading Room, [Vietnam Collection](https://www.cia.gov/readingroom/collection/vietnam-collection)
 - US Director of National Intelligence, [Tet Declassified](https://www.intelligence.gov/tet-declassified)
 - US Federal Bureau of Investigation, The Vault, ["Anti-War Movement"](https://vault.fbi.gov/anti-war-movement)
 - US National Archives, ["Electronic Records Relating to the Vietnam War"](https://www.archives.gov/research/military/vietnam-war/electronic-data-files)
