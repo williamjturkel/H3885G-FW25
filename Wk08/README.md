@@ -1,6 +1,6 @@
 # Wk 08. Deep Synthesis and Knowledge Generation (Workspace Integration)
 
-Computable Knowledge and Custom Personas. **Scholarly Primitive: Annotating** (Creating specialized, reusable descriptive markup). **Goal**: Learn how to define and embed persistent **System Instructions** and **Schemas** to force the AI to perform specialized research tasks.
+Following the break, we integrate our findings into a unified workspace to begin the process of deep synthesis. We will explore how AI can help us generate new historical knowledge by identifying patterns across our entire Vietnam War corpus. **Scholarly Primitive: Annotating** (Creating specialized, reusable descriptive markup). We learn how to define and embed persistent **System Instructions** and **Schemas** to force the AI to perform specialized research tasks.
 
 # Review: The Value of Annotation
 
