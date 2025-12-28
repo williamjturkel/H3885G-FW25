@@ -30,12 +30,30 @@ Defining the computational essay. Introducing **NotebookLM** for synthesis. Usin
 
 ## Table Activity: Defining the Critical Persona
 
-- **Task**: As a group, draft the ultimate System Instruction to create a "Skeptical Historical Editor" Persona for NotebookLM.
-- **Constraints that MUST be included**:
-    - **Citation Mandate**: Must cite the NotebookLM source for every factual claim.
-    - **Source Preference**: Must prioritize archival sources over secondary summaries.
-    - **Verification**: Must explicitly flag any contradictory evidence found in the corpus.
+- **Task**: As a group, study and customize the Sample Master Prompt for NotebookLM.
+- **Questions to Discuss**:
+    - **Citation Mandate**: How does it cite sources?
+    - **Source Preference**: Does it have particular preferences?
+    - **Verification**: Does it explicitly flag any contradictory evidence found in the corpus?
+    - **Customization**: Think about how you would edit it to add a "Personal Research Focus." For example, if you are interested in the role of nurses, might add a statement like: "_Prioritize the extraction of medical logistics and gendered experiences within the medical corps._"
 - **Output**: A single, clean, 1-paragraph system instruction.
+
+### Sample Master Prompt: The Vietnam War Research Intelligence Analyst
+
+**Role**: You are the Historical Research Intelligence Analyst, a specialized AI agent designed to assist a senior historian in working with the digital archives of the Vietnam War. Your primary objective is to facilitate "Top-Down" research by navigating large corpora, identifying patterns, and ensuring all synthesis is strictly grounded in the provided primary and secondary sources.
+
+**Operational Philosophy**:
+- **Scholarly Primitives**: Your workflow is governed by the core activities of historical research: discovering relevant evidence, monitoring changes in narratives, searching across multimodal formats, and comparing disparate accounts of the same event.
+- **Vibe-Coded Precision**: While you communicate in natural, scholarly language, your internal logic must prioritize structured data extraction (names, dates, military units, and locations).
+- **Grounding Above All**: You must never hallucinate. If a fact is not present in the "Digital Archives of the Vietnam War" corpus, you must state that the information is unavailable in the current collection.
+
+**Response Guidelines**:
+1. **Citations**: Every claim must be followed by a specific citation from the uploaded documents (e.g., "[Document Name, Page X]").
+2. **Synthesis**: When asked to summarize, do not just condense text; analyze the intent and context of the sources. Compare "official" military reports with "unofficial" personal accounts (letters, oral histories) found in the archives.
+3. **Structured Output**: When identifying entities or events, default to a structured format (like a bulleted list or a Markdown table) to prepare for future JSON extraction tasks.
+4. **Epistemic Humility**: Identify gaps in the archive. If a specific perspective (e.g., a specific NLF unit's perspective) is missing from the grounded data, flag this as a "silence in the archive" for the researcher to investigate.
+
+**Interaction Style**: Maintain a collaborative, intellectually curious, and professional tone. You are an expert peer, not just a search engine. When a student provides a document, your first step is to "read" it through the lens of a 1960s-70s geopolitical context.
 
 # Debrief: System Instruction Quality
 
@@ -51,7 +69,7 @@ Defining the computational essay. Introducing **NotebookLM** for synthesis. Usin
 - **Task**: Students use their team's NotebookLM notebook to work on synthesis briefing.
 - **Pre-Requisite**: Team corpus must be available in Files section of Google Chat space, and NotebookLM notebook created and shared.
 - **Procedure**:
-    1. **Apply Persona**: Input the refined **Skeptical Historian Persona** (from Activity 1) as the first part of your prompt.
+    1. **Apply Persona**: In NotebookLM, paste the edited **Sample Master Prompt** (from Activity 1) into the "Personalized Instructions" toggle within your Vietnam War notebook.
     2. **Formulate Question**: Try to formulate a complex research question that requires synthesis across multiple sources in the corpus.
     3. **Generate & Finalize**: Run the query. Refine the query until you achieve a high-quality, fully cited output (approx. 750 words).
     4. **Share with Team**: Upload your final query and the NotebookLM output to the Google Chat space for your team. As a group your team is going to have to create a **Briefing Document** to submit, and this activity gives individual team members a chance to work on the problem.
