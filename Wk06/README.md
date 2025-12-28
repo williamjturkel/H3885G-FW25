@@ -1,6 +1,6 @@
 # Wk 06. Verification, Grounding, and Systematic Comparison
 
-**Scholarly Primitive: Comparing** (Systematic analysis of structured data). **Goal**: Use Vibe Coding to generate analytical code that confirms (or refutes) research hypotheses using your new JSON dataset.
+As scholars we must verify everything. Today we learn techniques to challenge our own AI agents. By performing systematic comparisons between AI outputs and primary sources, we ensure our digital research remains grounded in historical truth. **Scholarly Primitive: Comparing** (Systematic analysis of structured data).
 
 # Review: The Structured Data Advantage
 
