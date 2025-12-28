@@ -1,6 +1,7 @@
 # Wk 05. Structured Data: JSON In, JSON Out
 
-This week focuses on moving from the "vibe" of natural language to the precision of structured data. While we have been interacting with our archives through conversation, historical research often requires systematic analysis: counting, mapping, and comparing entities across hundreds of documents. Data validation and schema refinement. **Scholarly Primitive: Representing** (Verifying the quality of the structured data). **Goal**: Debug the JSON Schema by testing the Vibe-Coded app against unfamiliar data.
+This week focuses on moving from the "vibe" of natural language to the precision of structured data. While we have been interacting with our archives through conversation, historical research often requires systematic analysis: counting, mapping, and comparing entities across hundreds of documents. 
+Precision is crucial for historical work, and today we use NotebookLM Data Tables to turn messy narratives into structured data. We will focus on extracting entities into JSON format, allowing us to export our findings for more rigorous systematic analysis. **Scholarly Primitive: Representing** (Verifying the quality of the structured data).
 
 # Activity 1: NotebookLM Data Tables (30 Min)
 
