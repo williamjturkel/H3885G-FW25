@@ -1,6 +1,6 @@
 # Wk 03. Data Acquisition and Preparation for Custom Corpus
 
-A core research skill: harvesting data at scale. Using **Vibe Coding** to generate simple scripts for targeted web data ingestion, data cleaning, and **Sampling** of large document sets.
+Digital research is only as good as the source collection it is based on, and today we begin the hands-on work of acquiring and preparing our digital corpus. We will learn how to transform raw historical documents into a curated, AI-ready data set that serves as the foundation for the rest of the term. Harvesting data at scale is a core research skill. We use **Vibe Coding** to generate apps for targeted web data ingestion, data cleaning, and **Sampling** of large document sets.
 
 # The Need for Custom Data
 
