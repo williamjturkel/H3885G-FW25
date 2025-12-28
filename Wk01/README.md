@@ -1,6 +1,6 @@
 # Wk 01. The Top-Down Philosophy, Scholarly Primitives & Gemini Ecosystem
 
-Introduction to Large Language Models (LLMs). The shift from bottom-up programming to top-down, natural language control. **Goal**: Setup & Conceptual Grounding.
+We begin by shifting our mindset from "bottom-up" data processing to a "top-down" scholarly philosophy where we act as the architects of AI systems involving Large Language Models (LLMs). Today, we explore the Gemini ecosystem (our primary research environment) to understand how "scholarly primitives" like searching and comparing are reimagined in 2026.
 
 # Unsworth's Scholarly Primitives
 
