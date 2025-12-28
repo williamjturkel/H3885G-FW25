@@ -142,6 +142,8 @@ Team submission, to be uploaded to OWL Brightspace along with your individual as
 Individual submission, to be uploaded to OWL Brightspace
 
 - All document filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself. This is to protect your privacy when the contents of the files are uploaded to AI tools.
+- **_LASTNAME-FIRSTNAME-AI-PERSONAS.pdf_**
+    - Collect all three personas in a single document, giving each one a title
 - **_LASTNAME-FIRSTNAME-AI-ANSWERS.pdf_**
     - Collect all three answers in a single document
     - Give each answer a title which reflects the Persona that generated it
