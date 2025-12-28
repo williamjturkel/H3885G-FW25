@@ -1,6 +1,23 @@
 # Wk 05. Structured Data: JSON In, JSON Out
 
-Data validation and schema refinement. **Scholarly Primitive: Representing** (Verifying the quality of the structured data). **Goal**: Debug the JSON Schema by testing the Vibe-Coded app against unfamiliar data.
+This week focuses on moving from the "vibe" of natural language to the precision of structured data. While we have been interacting with our archives through conversation, historical research often requires systematic analysis: counting, mapping, and comparing entities across hundreds of documents. Data validation and schema refinement. **Scholarly Primitive: Representing** (Verifying the quality of the structured data). **Goal**: Debug the JSON Schema by testing the Vibe-Coded app against unfamiliar data.
+
+# Activity 1: NotebookLM Data Tables (30 Min)
+
+## Automated Entity Extraction
+
+- **Task**: Instead of manually reading every document to find dates or names, you will instruct the AI to build a table for you.
+- **Procedure**:
+  1. Open NotebookLM with your Vietnam War notebook
+  2. Select the "**Studio**" tab and click the Pencil icon beside "**Data Table**." This will allow you define specific "columns" for the data you want to extract across your entire corpus.
+  3. Suggested Columns
+     - **Entity Name**: The specific person, military unit, or location mentioned.
+     - **Temporal Marker**: The exact or approximate date of the event.
+     - **Sentiment/Vibe**: A brief "vibe-coded" description of the tone (e.g., "Official/Optimistic," "Critical/Dissenting").
+     - **Source Citation**: The specific file and page number where this entity was found.
+  4. **Verify**: check the "Source Citation" column against the original documents to ensure the AI hasn't "hallucinated" entities that don't exist in your source collection.
+  5. **Export to Sheets**: Export the Data Table to Google Sheets. This allows you to save the table as a CSV file if you want to refer to it in the future.
+  6. **Convert to JSON**: In your NotebookLM chat session try the following prompt: "_Convert the current Data Table into a structured JSON array suitable for a network analysis tool_." We will discuss this output next.
 
 # JSON Refresher: The Language of Data
 
@@ -58,7 +75,7 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 - **Verification**: The process of ensuring that the extracted data is accurate and fits the defined schema.
 - **Testing against Unfamiliar Data**: Since your team used a corpus created by a different team, this immediately tests the reliability of your Extractor on data it was not tuned for.
 
-# Activity 1: JSON Validation and Refinement (40 Min)
+# Activity 2: JSON Validation and Refinement (30 Min)
 
 ## Getting Clean Text from the Class Data Pool
 
@@ -87,7 +104,7 @@ Data validation and schema refinement. **Scholarly Primitive: Representing** (Ve
 - **Systemic Flaw**: The issue lies in the **design** of the JSON Schema itself. This flaw is the core subject of the Individual Essay for A02.
 - **Key Question**: Does our **Representation** (the schema) truly serve our research question, or is it forcing the data into a mold that destroys meaning?
 
-# Activity 2: Immediate Analytical Querying (40 Min)
+# Activity 3: Immediate Analytical Querying (30 Min)
 
 ## Table Activity: Visualizing the Computational Advantage
 
