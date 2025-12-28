@@ -1,6 +1,6 @@
 # Wk 10. Networks and Relational Analysis
 
-**Scholarly Primitive: Illustrating** (Visualizing complex data). **Goal**: Use Vibe Coding to build a tool that extracts complex relational data and visualizes it as a network graph.
+History is a web of connections, and today we use AI to map the networks of people, units, and ideas within our archive. We will focus on relational analysis to see how individual entities influenced the broader trajectory of the Vietnam War. **Scholarly Primitive: Illustrating** (Visualizing complex data).
 
 # Network Analysis: The Building Blocks
 
