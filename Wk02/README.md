@@ -69,10 +69,10 @@ Defining the computational essay. Introducing **NotebookLM** for synthesis. Usin
 - **Task**: Students use their team's NotebookLM notebook to work on synthesis briefing.
 - **Pre-Requisite**: Team corpus must be available in Files section of Google Chat space, and NotebookLM notebook created and shared.
 - **Procedure**:
-    1. **Apply Persona**: In NotebookLM, paste the edited **Sample Master Prompt** (from Activity 1) into the "Personalized Instructions" toggle within your Vietnam War notebook.
-    2. **Formulate Question**: Try to formulate a complex research question that requires synthesis across multiple sources in the corpus.
-    3. **Generate & Finalize**: Run the query. Refine the query until you achieve a high-quality, fully cited output (approx. 750 words).
-    4. **Share with Team**: Upload your final query and the NotebookLM output to the Google Chat space for your team. As a group your team is going to have to create a **Briefing Document** to submit, and this activity gives individual team members a chance to work on the problem.
+    1. **Apply Persona**: In NotebookLM within your Vietnam War notebook, click "Configure Notebook" and then paste the edited **Sample Master Prompt** (from Activity 1) into the "Custom" window and save it.
+    3. **Formulate Question**: Try to formulate a complex research question that requires synthesis across multiple sources in the corpus.
+    4. **Generate & Finalize**: Run the query. Refine the query until you achieve a high-quality, fully cited output (approx. 750 words).
+    5. **Share with Team**: Upload your final query and the NotebookLM output to the Google Chat space for your team. As a group your team is going to have to create a **Briefing Document** to submit, and this activity gives individual team members a chance to work on the problem.
 
 # Debrief: The Referring Primitive
 
