@@ -1,6 +1,6 @@
 # Wk 14. The War Room Analyst: Vibe-Coded Simulation
 
-**Scholarly Primitive: Synthesis** and **Discovery** (in simulation). **Goal**: Use Vibe Coding to generate an immersive, high-stakes historical simulation tool.
+In our final meeting, we step into the "War Room" for a real-time simulation. You will use your Final Synthesis Agent to respond to live historical inquiries, demonstrating the power of a "vibe-coded" analytical environment. **Scholarly Primitive: Synthesis** and **Discovery** (in simulation). We use Vibe Coding to generate an immersive, high-stakes historical simulation tool.
 
 # The Final Challenge: Mission Control
 
