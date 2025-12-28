@@ -126,16 +126,34 @@ In this case, Team 2D extracted a _rhetorical_device_ field which the other team
 - **Verification Challenge**: If one team's extractor gives **Confidence Score: 5** and another team's extractor gives **Confidence Score: 2** for the same type of source, what does this tell us about the **methodology**?
 - **Key Point**: Comparison immediately exposes flaws in the **Representation** (JSON Schema/Prompt).
 
-# Activity 2: Vibe Coding for Analysis (25 Min)
+## Accessing AI "Thinking"
 
-## Table Activity: Generating a Comparison App (Illustrating)
+We can leverage the **Gemini 3 "Deep Think"** mode to audit our agents and ensure they aren't just telling us what we want to hear.
 
-- **Task**: Use Vibe Coding to generate a simple **Analysis App** that immediately visualizes a core finding from the data just loaded into the Sheet.
+### Understanding Gemini 3 "Thinking" (Deep Think)
+
+In late 2025, Google introduced **Deep Think** as a specialized reasoning mode that differs from standard "fast" generation.
+
+- **The Difference**: Standard models (like Flash) predict the next likely word. **Thinking models** use iterative rounds of reasoning to explore multiple hypotheses and cross-reference data _before_ they start writing the final response.
+- **Why it matters for Scholarship**: This mode is significantly better at catching subtle logical contradictions in historical accounts and identifying "hallucinations" in your JSON entity extractors.
+
+### How to Access "Thinking"
+
+- **Gemini App**: Select the "**Thinking**" toggle in the model dropdown (or use the "Deep Think" button for Pro users).
+- **Google AI Studio**: Use the `thinking_level` parameter. Set it to "**high**" for verification tasks where reasoning depth is more important than speed.
+
+# Activity 2: The Historical "Red-Team" (25 Min)
+
+## Table Activity
+
+- **Task**: "Red-teaming" is the process of intentionally trying to break or find flaws in a system. You will use a **Thinking-enabled agent** to critique the CSV file you created in Activity 1.
 - **Procedure**:
-  1. **Formulate Hypothesis**: e.g., "Primary military documents show a higher frequency of 'adversarial' relationships than newspaper editorials."
-  2. **Vibe Code the Analysis App**: Start a new Vibe Coding session. Prompt for a single-file HTML app that includes a **text input area for pasting the aggregated CSV data** and a button. When clicked, the app must calculate and display the **percentage of documents** in the dataset where the `doc_topic_tag` is "Policy."
-  3. **Execute**: Paste the data from the Google Sheet into the app and run the analysis.
-- **Goal**: Demonstrate that complex calculations and numerical summaries (Comparison) can be achieved in seconds using a Vibe-Coded app.
+  1. **Input Your CSV**: Provide the agent with the computational dataset CSV you created in Activity 1.
+  2. **The Prompt**: "You are a skeptical historical auditor. Using the highest thinking level, review this data. Identify any extracted dates, locations, or units that seem historically improbable based on the context of the Vietnam War. Point out potential hallucinations."
+  3. **The Goal**: Find at least two instances where your "fast" agent over-generalized or misattributed a fact.
+  4. **Systematic Grounding**: Verification is not just about "thinking"; it’s about checking the source. We will use the **Grounding with Google Search** tool alongside our local Vietnam War corpus.
+     - **Integrated Grounding**: In Gemini 3, the model can now perform real-time searches to verify "world knowledge" (like the date of the Tet Offensive) against the specific, private documents in your archive.
+     - **Exercise**: Pick a controversial event from your archive. Ask the Thinking model: "_Compare [Document A]'s account of this event with the consensus of modern scholarship found via Google Search. Where are the significant discrepancies?_"
 
 # Activity 3: Geospatial Referencing and Comparison (30 Min)
 
