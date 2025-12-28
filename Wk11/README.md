@@ -1,6 +1,6 @@
 # Wk 11. Semantic Search and Clustering
 
-**Scholarly Primitive: Discovery** (Finding non-obvious patterns). **Goal**: Use Vibe Coding to build tools that discover meaning based on _context_ (embeddings), not _keywords_.
+Standard keyword searches often miss the "meaning" behind the text; today we leverage semantic search to find conceptually related documents. We will use AI clustering to group our archive into thematic nodes, revealing hidden structures in the historical record. **Scholarly Primitive: Discovery** (Finding non-obvious patterns). We use Vibe Coding to build tools that discover meaning based on _context_ (embeddings), not _keywords_.
 
 # Beyond Keywords: Semantic Embeddings
 
