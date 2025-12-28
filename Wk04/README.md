@@ -1,6 +1,6 @@
 # Wk 04. From Research Idea to AI Prototype (Vibe Coding)
 
-The Master Prompt: Generating the full research tool. **Scholarly Primitive: Representing** (Creating the container and the data structure). **Goal**: Craft a single natural language command that generates the entire Extractor App.
+We move today into "vibe coding," using natural language to prototype functional research tools without writing a single line of traditional code. This session focuses on the rapid translation of a complex historical inquiry into a working AI prototype. We create a **Master Prompt**, a single natural language command, to generate a full research tool. **Scholarly Primitive: Representing** (Creating the container and the data structure).
 
 # What is a Research Prototype?
 
