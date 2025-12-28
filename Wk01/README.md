@@ -58,9 +58,10 @@ Table activities give you a chance to work with one or two other people and figu
     1. Go to [Google AI Studio](https://aistudio.google.com) and navigate to the Vibe Coding / Build mode.
     2. With the other students at your table, agree on a research tool to build (there are a list of options below).
     3. Type your full request into the prompt window.
-    4. Run the generation and see the code appear.
-    5. Try running your app and testing it with the suggested source.
-    6. If you have time, try some of the other prompts.
+    4. Check to see that AI Studio is using the **Gemini 3 Flash** model (it may be labeled "Flash").
+    5. Run the generation and see the code appear.
+    6. Try running your app and testing it with the suggested source.
+    7. If you have time, try some of the other prompts.
 - **Sample Research Tool Prompts**:
   - Create a tool that summarizes a document, **extracts** three key entities and formats them as a bulleted list
     - Test with: [National Vietnam War Veterans Day](https://www.nixonlibrary.gov/news/national-vietnam-war-veterans-day) from the Nixon Presidential Library.
