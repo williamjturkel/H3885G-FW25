@@ -70,6 +70,7 @@ Defining the computational essay. Introducing **NotebookLM** for synthesis. Usin
 - **Pre-Requisite**: Team corpus must be available in Files section of Google Chat space, and NotebookLM notebook created and shared.
 - **Procedure**:
     1. **Apply Persona**: In NotebookLM within your Vietnam War notebook, click "Configure Notebook" and then paste the edited **Sample Master Prompt** (from Activity 1) into the "Custom" window and save it.
+    2. **Test**: Try asking "_Based on the grounding you have, what are the three most significant contradictions in these accounts?_" Save a copy of its response so you can refer to it later if you need to.
     3. **Formulate Question**: Try to formulate a complex research question that requires synthesis across multiple sources in the corpus.
     4. **Generate & Finalize**: Run the query. Refine the query until you achieve a high-quality, fully cited output (approx. 750 words).
     5. **Share with Team**: Upload your final query and the NotebookLM output to the Google Chat space for your team. As a group your team is going to have to create a **Briefing Document** to submit, and this activity gives individual team members a chance to work on the problem.
