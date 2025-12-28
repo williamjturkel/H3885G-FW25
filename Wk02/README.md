@@ -1,6 +1,6 @@
 # Wk 02. Research Agent Persona & Grounding
 
-Defining the computational essay. Introducing **NotebookLM** for synthesis. Using **System Instructions** to establish the AI's role and achieve **Referring** (Source Grounding).
+Successful AI research requires more than a simple prompt; it requires a specialized "Master Persona" with deep context and clear operational boundaries. Today we learn to "ground" our agents, ensuring every insight they provide is anchored strictly within the Digital Archives of the Vietnam War. We introduce **NotebookLM** for synthesis, and we use **System Instructions** to establish the AI's role and achieve **Referring** (Source Grounding).
 
 # The Hallucination Trade-Off
 
