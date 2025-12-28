@@ -1,6 +1,6 @@
 # Wk 12. Synthesis and Final Agent Prompting
 
-**Scholarly Primitive: Synthesis** (Integrating all tools). **Goal**: Create the single, complex Master Prompt that generates the final, comprehensive Computational Essay Tool.
+As we approach the end of the term, we begin the high-level synthesis required for your final projects. Today is dedicated to refining your Final Synthesis Agent, ensuring it can perform the complex reasoning needed to summarize your semester's work. **Scholarly Primitive: Synthesis** (Integrating all tools). **Goal**: Create the single, complex Master Prompt that generates the final, comprehensive Computational Essay Tool.
 
 # The Challenge of Synthesis
 
