@@ -1,6 +1,6 @@
 # Wk 13. Final Review
 
-**Scholarly Primitive: Critique** and **Synthesis**. **Goal**: Review the final A04 Master Prompts and reflect on the semester-long journey of computational control.
+This session is a dedicated retrospective of our technical and historical findings. We will peer-review our final agents and troubleshoot any lingering issues before the final simulation. **Scholarly Primitive: Critique** and **Synthesis**. **Goal**: Review the final A04 Master Prompts and reflect on the semester-long journey of computational control.
 
 # The Computational Essay: The A04 Synthesis
 
