@@ -5,6 +5,10 @@
 Professor William J. Turkel <br/>
 Department of History, The University of Western Ontario
 
+### Course Description
+
+In this course, students learn to use cutting-edge large language models (LLMs) and other computational techniques to find, evaluate and analyze digital sources for advanced research in the humanities and social sciences. We take a top-down, project-based approach using the Google Gemini ecosystem, focusing on translating complex research methodologies into functional, AI-powered workflows. The shift from a programmatic environment to the high-level, agentic capabilities of the Gemini ecosystem allows students to focus on research questions, as ‘vibe coding’ handles the heavy lifting of code generation. No previous programming experience is required. The focus is on enabling ambitious research projects that were previously difficult or impossible for non-programmers.
+
 ### Shared Research Domain
 
 The shared research domain for the entire semester is **Digital Archives of the Vietnam War**.
