@@ -48,6 +48,7 @@ The 500-word reflection must explicitly link the finding back to the **Scholarly
 
 Team submission, to be uploaded to OWL Brightspace along with your individual assignment:
 
+- Before you can submit an Assignment you will be asked to nominate one other person on your team as the Most Valuable Participant (MVP). Type in their Gmail account name (the part of their Gmail address before the at sign). This is mandatory and makes up part of the peer grade for each assignment.
 - _**TEAMNAME-SYNTHESIS-AGENT.txt**_
   - The complete, single A04 Master Prompt Text (the technical recipe).
 - _**TEAMNAME-MANUAL.pdf**_:
@@ -59,6 +60,7 @@ Team submission, to be uploaded to OWL Brightspace along with your individual as
 
 Individual submission, to be uploaded to OWL Brightspace
 
+- Before you can submit an Assignment you will be asked to nominate one other person on your team as the Most Valuable Participant (MVP). Type in their Gmail account name (the part of their Gmail address before the at sign). This is mandatory and makes up part of the peer grade for each assignment.
 - All document filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself. This is to protect your privacy when the contents of the files are uploaded to AI tools.
 - _**LASTNAME-FIRSTNAME-VISUALIZATION.pdf**_
 - _**LASTNAME-FIRSTNAME-ESSAY.pdf**_
