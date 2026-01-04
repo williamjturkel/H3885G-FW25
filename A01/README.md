@@ -130,6 +130,7 @@ Between our second and third class meetings **each individual student** has to d
 
 Team submission, to be uploaded to OWL Brightspace along with your individual assignment:
 
+- Before you can submit an Assignment you will be asked to nominate one other person on your team as the Most Valuable Participant (MVP). Type in their Gmail account name (the part of their Gmail address before the at sign). This is mandatory and makes up part of the peer grade for each assignment.
 - All documents may contain your TEAMNAME (e.g., 1A) but should not contain any other identifying information (_do not include your names or Gmail addresses_). This is to protect your privacy when the contents of the files are uploaded to AI tools.
 - **_TEAMNAME-SCOPE.pdf_**
     - Statement describing the scope of your collection
@@ -141,6 +142,7 @@ Team submission, to be uploaded to OWL Brightspace along with your individual as
 
 Individual submission, to be uploaded to OWL Brightspace
 
+- Before you can submit an Assignment you will be asked to nominate one other person on your team as the Most Valuable Participant (MVP). Type in their Gmail account name (the part of their Gmail address before the at sign). This is mandatory and makes up part of the peer grade for each assignment.
 - All document filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself. This is to protect your privacy when the contents of the files are uploaded to AI tools.
 - **_LASTNAME-FIRSTNAME-AI-PERSONAS.pdf_**
     - Collect all three personas in a single document, giving each one a title
