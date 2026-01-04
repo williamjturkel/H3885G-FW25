@@ -71,6 +71,7 @@ Use these questions to guide your 500-word critique:
 
 Team submission, to be uploaded to OWL Brightspace along with your individual assignment:
 
+- Before you can submit an Assignment you will be asked to nominate one other person on your team as the Most Valuable Participant (MVP). Type in their Gmail account name (the part of their Gmail address before the at sign). This is mandatory and makes up part of the peer grade for each assignment.
 - All documents may contain your TEAMNAME (e.g., 2A) but should not contain any other identifying information (do not include your names or Gmail addresses). This is to protect your privacy when the contents of the files are uploaded to AI tools.
 - _**TEAMNAME-MASTER-PROMPT.txt**_
   - The single, finalized text file containing the complete Master Prompt. (This is the primary artifact).
@@ -89,6 +90,7 @@ Team submission, to be uploaded to OWL Brightspace along with your individual as
 
 Individual submission, to be uploaded to OWL Brightspace
 
+- Before you can submit an Assignment you will be asked to nominate one other person on your team as the Most Valuable Participant (MVP). Type in their Gmail account name (the part of their Gmail address before the at sign). This is mandatory and makes up part of the peer grade for each assignment.
 - All document filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself. This is to protect your privacy when the contents of the files are uploaded to AI tools.
 - _**LASTNAME-FIRSTNAME-ESSAY.pdf**_
 
