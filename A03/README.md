@@ -36,6 +36,7 @@ After our Mar 5 meeting **each individual student** has to do the following
 
 Team submission, to be uploaded to OWL Brightspace along with your individual assignment:
 
+- Before you can submit an Assignment you will be asked to nominate one other person on your team as the Most Valuable Participant (MVP). Type in their Gmail account name (the part of their Gmail address before the at sign). This is mandatory and makes up part of the peer grade for each assignment.
 - All documents may contain your TEAMNAME (e.g., 3A) but should not contain any other identifying information (_do not include your names or Gmail addresses_). This is to protect your privacy when the contents of the files are uploaded to AI tools.
 - _**TEAMNAME-ANNOTATION-PERSONA.txt**_:
   - The finalized text of the **A03 Master Prompt** (which includes the System Instruction and the JSON Schema). This is the technical recipe that defines your tool.
@@ -54,5 +55,6 @@ Team submission, to be uploaded to OWL Brightspace along with your individual as
 
 Individual submission, to be uploaded to OWL Brightspace
 
+- Before you can submit an Assignment you will be asked to nominate one other person on your team as the Most Valuable Participant (MVP). Type in their Gmail account name (the part of their Gmail address before the at sign). This is mandatory and makes up part of the peer grade for each assignment.
 - All document filenames will include your LASTNAME-FIRSTNAME but should not contain any identifying information within the file itself. This is to protect your privacy when the contents of the files are uploaded to AI tools.
 - _**LASTNAME-FIRSTNAME-ESSAY.pdf**_
