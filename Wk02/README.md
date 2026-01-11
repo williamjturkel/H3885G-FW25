@@ -80,7 +80,7 @@ While a **website** is like a digital brochure designed for you to _read_ inform
     1. **Apply Persona**: In a new NotebookLM notebook, click "Configure Notebook" and then paste the edited **Sample Master Prompt** (from Activity 1) into the "Custom" window and save it.
     2. **Load Sources**: Load these two sources from the [Pentagon Papers](https://www.archives.gov/research/pentagon-papers) into the notebook (you can copy the URLs from the links and use those rather than downloading and uploading PDFs)
        - [Part V. A. Justification of the War. Public Statements. Volume I: C--The Kennedy Administration](https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IC.pdf)
-       - [Part V. B. 4. Justification of the War. Internal Documents. The Kennedy Administration. Book I](https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-I.pdf)
+       - [Part V. B. 4. Justification of the War. Internal Documents. The Kennedy Administration. Book II ](https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-II.pdf)
     4. **Test**: Try asking "_Based on the grounding you have, what are the three most significant contradictions in these accounts?_" Save a copy of its response so you can refer to it later if you need to.
     5. **Formulate Question**: Try to formulate a complex research question that requires synthesis across multiple sources in the corpus.
     6. **Generate & Finalize**: Run the query. Refine the query until you achieve a high-quality, fully cited output (approx. 750 words).
