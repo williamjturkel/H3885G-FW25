@@ -75,14 +75,16 @@ While a **website** is like a digital brochure designed for you to _read_ inform
 
 ## Individual Task: Testing Persona Application
 
-- **Task**: Students use their team's NotebookLM notebook to work on synthesis briefing.
-- **Pre-Requisite**: Team corpus must be available in Files section of Google Chat space, and NotebookLM notebook created and shared.
+- **Task**: Students practice using NotebookLM to work on synthesis briefing.
 - **Procedure**:
-    1. **Apply Persona**: In NotebookLM within your Vietnam War notebook, click "Configure Notebook" and then paste the edited **Sample Master Prompt** (from Activity 1) into the "Custom" window and save it.
-    2. **Test**: Try asking "_Based on the grounding you have, what are the three most significant contradictions in these accounts?_" Save a copy of its response so you can refer to it later if you need to.
-    3. **Formulate Question**: Try to formulate a complex research question that requires synthesis across multiple sources in the corpus.
-    4. **Generate & Finalize**: Run the query. Refine the query until you achieve a high-quality, fully cited output (approx. 750 words).
-    5. **Share with Team**: Upload your final query and the NotebookLM output to the Google Chat space for your team. As a group your team is going to have to create a **Briefing Document** to submit, and this activity gives individual team members a chance to work on the problem.
+    1. **Apply Persona**: In a new NotebookLM notebook, click "Configure Notebook" and then paste the edited **Sample Master Prompt** (from Activity 1) into the "Custom" window and save it.
+    2. **Load Sources**: Load these two sources from the [Pentagon Papers](https://www.archives.gov/research/pentagon-papers) into the notebook
+       - [Part V. A. Justification of the War. Public Statements. Volume I: C--The Kennedy Administration](https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IC.pdf)
+       - [Part V. B. 4. Justification of the War. Internal Documents. The Kennedy Administration. Book I](https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-I.pdf)
+    4. **Test**: Try asking "_Based on the grounding you have, what are the three most significant contradictions in these accounts?_" Save a copy of its response so you can refer to it later if you need to.
+    5. **Formulate Question**: Try to formulate a complex research question that requires synthesis across multiple sources in the corpus.
+    6. **Generate & Finalize**: Run the query. Refine the query until you achieve a high-quality, fully cited output (approx. 750 words).
+    7. **Share with Team**: Upload your final query and the NotebookLM output to the Google Chat space for your team. As a group your team is going to have to create a **Briefing Document** to submit, and this activity gives individual team members a chance to work on the problem.
 
 # Debrief: The Referring Primitive
 
