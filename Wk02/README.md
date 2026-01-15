@@ -11,6 +11,43 @@ While a **website** is like a digital brochure designed for you to _read_ inform
 - **A Website is like a Book**: You open it to find information that is already there. You can flip the pages, but you can’t make the book change its own text.
 - **A Browser App is like a Machine**: You give it raw materials (your research files), tell it what to do, and it produces a specific result (like a summary or a data table).
 
+# Excel File (XLSX) vs CSV: What's the Difference?
+
+## **XLSX vs. CSV: The "Machine vs. Human" Distinction**
+
+When you are developing datasets that are both human- and machine readible, simpler formats are often better.
+
+|**Feature**|**XLSX (Excel Workbook)**|**CSV (Comma-Separated Values)**|
+|---|---|---|
+|**Nature**|A complex "container" for data, formatting, formulas, and multiple sheets.|A simple, plain-text file containing only raw data.|
+|**Readability**|Only readable by specific software (Excel, Google Sheets).|Readable by any text editor, AI, or custom code.|
+|**Logic**|"Caters to people" (visuals, colors, charts).|"Caters to machines" (clean, predictable, portable).|
+|**Structure**|Can have multiple tabs/sheets.|Limited to **one single sheet** of data.|
+
+## **Why use CSV for your apps?**
+
+1. **Universality:** Every programming language and AI model "speaks" CSV fluently. It is the "bridge" that allows data to move between different systems without breaking.
+    
+2. **No "Hidden" Junk:** Excel files save a lot of invisible metadata (formatting, print settings, version history) that can confuse a simple "vibe-coded" app. CSV strips all that away, leaving only the "source of truth."
+    
+3. **Predictability:** In an app, we want the data to be in a specific "shape" (e.g., Column A is always the Name). CSV enforces a "flat" structure that is much easier for your AI agents to parse and map correctly.
+    
+## **How to create a CSV from Excel (The "Save As" Method)**
+
+If you have been working in Excel, follow these steps to prepare your data for your app:
+
+1. **Clean the Sheet:** Ensure your data starts at cell **A1**. Make sure your first row contains clear headers (e.g., `Date`, `Event`, `Location`).
+    
+2. **Select the Active Sheet:** Remember, CSV can only save **one sheet at a time**. Make sure you are clicked into the tab you want to export.
+    
+3. **Save As:** * Go to **File > Save As** (or press **F12** on Windows).
+    
+    - In the "Save as type" dropdown, select **CSV (Comma delimited) (*.csv)** or **CSV UTF-8 (Comma delimited) (*.csv)**.
+        
+    - _Tip: Use UTF-8 if your data contains special characters or non-English text._
+        
+4. **Confirm the Warning:** Excel will warn you that "some features may be lost." **Click Yes.** This is exactly what we want—we are stripping away the "Excel features" to get to the "Data."
+
 # The Hallucination Trade-Off
 
 ## Constraining Creativity for Verifiable Research
