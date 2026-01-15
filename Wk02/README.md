@@ -15,7 +15,7 @@ While a **website** is like a digital brochure designed for you to _read_ inform
 
 ## **XLSX vs. CSV: The "Machine vs. Human" Distinction**
 
-When you are developing datasets that are both human- and machine readible, simpler formats are often better.
+When you are developing datasets that can be read by both humans and machines, simpler formats are often better.
 
 |**Feature**|**XLSX (Excel Workbook)**|**CSV (Comma-Separated Values)**|
 |---|---|---|
