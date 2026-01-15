@@ -26,11 +26,11 @@ When you are developing datasets that can be read by both humans and machines, s
 
 ## **Why use CSV for your apps?**
 
-1. **Universality:** Every programming language and AI model "speaks" CSV fluently. It is the "bridge" that allows data to move between different systems without breaking.
+1. **Universality:** Every programming language and AI model "speaks" CSV fluently. Using CSV allows data to move between different systems without breaking.
     
-2. **No "Hidden" Junk:** Excel files save a lot of invisible metadata (formatting, print settings, version history) that can confuse a simple "vibe-coded" app. CSV strips all that away, leaving only the "source of truth."
+2. **No "Hidden" Junk:** Excel files save a lot of invisible metadata (formatting, print settings, version history) that can confuse a simple "vibe-coded" app. CSV strips all that away, leaving only the data.
     
-3. **Predictability:** In an app, we want the data to be in a specific "shape" (e.g., Column A is always the Name). CSV enforces a "flat" structure that is much easier for your AI agents to parse and map correctly.
+3. **Predictability:** In an app, we want the data to be in a specific format (e.g., Column A is always the Name). CSV enforces a "flat" structure that is much easier for your AI agents to parse and map correctly.
     
 ## **How to create a CSV from Excel (The "Save As" Method)**
 
