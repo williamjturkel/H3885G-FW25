@@ -2,7 +2,7 @@
 
 Successful AI research requires more than a simple prompt; it requires a specialized "Master Persona" with deep context and clear operational boundaries. Today we learn to "ground" our agents, ensuring every insight they provide is anchored strictly within the Digital Archives of the Vietnam War. We introduce **NotebookLM** for synthesis, and we use **System Instructions** to establish the AI's role and achieve **Referring** (Source Grounding).
 
-# Website vs. Browser App: What’s the Difference?
+# Website vs. Browser App: What's the Difference?
 
 While a **website** is like a digital brochure designed for you to _read_ information (like a news site or a blog), a **browser app** is actual software designed for you to _perform_ tasks (like a calculator, Gmail, or a research tool). In this course, we aren't just making webpages to look at; we are using AI Studio to build functional digital assistants that 'live' in your browser and process data for you.
 
