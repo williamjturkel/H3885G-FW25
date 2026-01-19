@@ -6,7 +6,7 @@ We move today into "vibe coding," using natural language to prototype functional
 
 ## The Master Prompt Mindset
 
-- **The Challenge**: For a single tool (the Extractor), the UI design, the API call, the JSON schema, and the JavaScript logic must all be integrated into a **single Vibe Coding request**.
+- **The Challenge**: For a single tool (the Extractor), the User Interface (UI) design, the API call, the JSON schema, and the JavaScript logic must all be integrated into a **single Vibe Coding request**.
 - **The Master Prompt**: This is the single, highly constrained, and verbose natural language command that serves as the **top-down source code** for the entire application.
 - **Focus Shift**: Rather than writing code we are mastering the art of the integrated prompt. We are building a high-performance **engine** by designing the blueprint _first_.
 
@@ -20,7 +20,34 @@ The Master Prompt must contain three parts. If you forget to include a requireme
 |---|---|---|
 |**1. UI/Architecture**|Defines the interface and code language.|"Generate a single-file HTML/JS app with a large text input and a button..."|
 |**2. Logic/Action**|Defines the API call and data flow.|"...when the button is clicked, call the Gemini API and send the text input to extract entities from within the text..."|
-|**3. Data Schema (Wk 05 Preview)**|Defines the structure of the output.|"...The response MUST be valid JSON, strictly following this schema: `paste schema here`"|
+|**3. Data Schema**|Defines the structure of the output.|"...The response MUST be valid JSON, strictly following this schema: `paste schema here`"|
+
+# **The Language of Connection: API, Keys, and Calls**
+
+To understand how your browser app works, think of a **Restaurant**:
+- **You (The Client):** The person sitting at the table who wants a specific dish (e.g., "Extract all dates from this document").
+- **The Kitchen (The Server):** Where the "cooking" happens—in our case, this is Google’s massive AI infrastructure.
+- **The Menu (Documentation):** A list of what the kitchen is capable of making for you.
+    
+## **1. What is an API? (The Waiter)**
+
+The **API** (Application Programming Interface) is the **waiter**. You cannot go into the kitchen and cook the food yourself. You give your order to the waiter, the waiter takes it to the kitchen, and then the waiter brings the finished dish back to your table. The API is the messenger that allows two different pieces of software to talk to each other.
+
+## **2. What is an API Key? (The ID Badge)**
+
+The **API Key** is a unique "password" or **ID badge** that you give to the waiter. It tells the kitchen:
+- **Who is ordering:** (It identifies your specific Google account).
+- **Permission:** (It proves you are allowed to be in the restaurant).
+- **Billing/Quota:** (It keeps track of how many "meals" you’ve ordered today so you don't overwhelm the kitchen).
+    
+> **Important:** Never share your API key publicly. If someone else has your key, they can "order meals" on your tab!
+
+## **3. What is an API Call? (The Act of Ordering)**
+
+An **API Call** is the specific moment you hand your order and your ID badge to the waiter. In your app, every time a student clicks a button to "Process Text," the app makes an "API Call" to Gemini.
+
+- **The Request:** "Here is my text and my API key; please summarize this."  
+- **The Response:** "Here is your summary."
 
 # Activity 1: Generating the Minimal UI Scaffold (25 Min)
 
