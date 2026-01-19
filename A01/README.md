@@ -54,8 +54,8 @@ Between our first and second class meetings, your **team** has to do the followi
 1. **Choose a team leader**. This person will be responsible for submitting the team portion of the assignment to OWL. They will also be responsible for making sure that files get submitted to the Class Data Pool on time.
 2. **Discuss and choose which of the two sub-topics you are going collect a corpus for**.
 3. **Define the scope of your collection**. The focus should be specific enough to be manageable but diverse enough for analysis. Write a short statement (a few sentences) describing the scope of your collection.
-4. **Procudure (Collection Protocol)**:
-   1. Use the **Structured Discovery Workflow** (below) to find and save sources as Files in your private Google Chat space.
+4. **Procedure (Collection Protocol)**:
+   1. Use the **Structured Discovery Workflow** (below) to find and save sources as files in your private Google Chat space.
    2. The files should be renamed to **_TEAMNAME-SOURCE-01.pdf_**, **_TEAMNAME-SOURCE-02.pdf_**, ...
    3. Create a Google Sheets document named **_TEAMNAME-SOURCES.csv_** to keep track of the sources you collect and save it as a CSV File in your private Google Chat space. Capture the following **metadata** for each source
        - Title
@@ -76,7 +76,6 @@ Between our first and second class meetings, your **team** has to do the followi
     - Use the **URL-loading feature** in the Gemini interface to ask Gemini to summarize and extract entities from each URL. This ensures the document is readable by the AI later.
 3. **PDF/Document Conversion**:
     - For any relevant web pages (not PDFs), use your browser's "Print to PDF" function. This ensures a clean, single-file document suitable for NotebookLM grounding.
-    - **Goal**: Convert all selected web content into PDF format (this is mandatory for reliable grounding in NotebookLM).
 4. **Repeat & Filter**:
     - Repeat steps 1-3 until your team has acquired enough sources. How much is enough? If your sources are book length (hundreds of pages), then you need about 10 of them. If they are shorter (e.g., long webpages) then you will need about three times as many. For mixtures of book-length and shorter sources, somewhere in between. (This is because of the source limits of the free tier of NotebookLM. In Dec 2025 they were 500,000 words or 200MB per source file, with a maximum of 50 sources per notebook.)
     - Filter ruthlessly: Exclude short news clippings, simple landing pages, or low-quality sources.
