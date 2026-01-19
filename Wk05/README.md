@@ -18,7 +18,7 @@ Precision is crucial for historical work, and today we use NotebookLM Data Table
      - **Source Citation**: The specific file and page number where this entity was found.
   4. **Verify**: check the "Source Citation" column against the original documents to ensure the AI hasn't "hallucinated" entities that don't exist in your source collection.
   5. **Export to Sheets**: Export the Data Table to Google Sheets. This allows you to save the table as a CSV file if you want to refer to it in the future.
-  6. **Convert to JSON**: In your NotebookLM chat session try the following prompt: "_Convert the current Data Table into a structured JSON array suitable for a network analysis tool_." We will discuss this output next.
+  6. **Convert to JSON**: In your NotebookLM chat session try the following prompt: "_Convert the current Data Table into a structured JSON array suitable for a network analysis tool_." (If this prompt does not work, you can export the Data Table to Google Sheets, save it as a CSV and then re-import it into the Notebook.) We will discuss this output next.
 
 # JSON Refresher: The Language of Data
 
