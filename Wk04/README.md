@@ -114,7 +114,7 @@ An **API Call** is the specific moment you hand your order and your ID badge to 
   3. **AI Assist**: Open a Gemini chat window and use a prompt like this: "I am trying to write a prompt to describe an app for AI Studio. Can you make suggestions for improving the prompt? Here it is: `paste in prompt text`"
 - **Goal**: Individual students leave with the highest quality, least ambiguous Master Prompt ready for discussion with their A02 team.
 
-# Assignment 02 Overview
+# Your A02 Team has Homework
 
 [Assignment Page](<../A02>)
 
