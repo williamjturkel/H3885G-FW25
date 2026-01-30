@@ -11,7 +11,7 @@
 
 After our Jan 29 meeting your **team** has to do the following
 
-- **Choose a team leader**. This person will be responsible for submitting the team portion of the assignment to OWL. They will also be responsible for making sure that files get submitted to the Class Data Pool on time.
+- **Choose a team leader**. This person will be responsible for submitting the team portion of the assignment to OWL. They will also be responsible for making sure that files get submitted to the [Class Data Pool](https://https//drive.google.com/drive/folders/1xWptcfsb1iWdcDU24xdbf4M_7Y9kSzVI?usp=sharing) on time.
 - **Task**: Design and refine the single **Master Prompt** that serves as the top-down source code for the Extractor App, and use it to generate structured data outputs. All work is conducted within the **Google AI studio** environment.
 - **Artifact Components**:
   - **The Master Prompt Text**: The single, finalized natural language command that generates the entire app (UI, Logic, and Schema). This text is the technical specification of your tool and serves as 'recipe' for future teams to generate your app.
