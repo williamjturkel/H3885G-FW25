@@ -2,6 +2,11 @@
 
 Things to consider next time the course is taught...
 
+- Overall
+  - Move to Antigravity and expand to take advantage of parallelism, agent skills, etc.
+  - Decouple assignment activities from in-class activities
+  - Make all in-class activities table activities to encourage pair / group communication
+
 - Assignment 01
   - Make sure to stress in Assignment 01 that they should be drawing from publicly available URLs and not from resources in Library. Include an explicit section about that in the Assignment.
 
