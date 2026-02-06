@@ -14,3 +14,8 @@ Things to consider next time the course is taught...
   - One of the app suggestions outputs a JSON Schema - include a sentence or two about what this is and say we will cover it in much more detail later in the course
 - Week 02
   - Working with master prompt: Do you want them to craft their own master prompt in response to this one or produce a write-up of sorts in which they discuss/break down the components of the prompt, and perhaps compare the intent of the components with its output when run?
+- Week 05
+  - Activity 01 provided hit-and-miss results (NotebookLM data table extraction still under development?)
+  - Relationship between Activity 01 and Activity 03 not at all clear
+  - In Activity 03, concatenating JSON files resulted in errors most students could not fix
+  - If keeping visualization, need to remind them what kind of data makes for a good pie chart
