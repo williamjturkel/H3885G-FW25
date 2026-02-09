@@ -140,19 +140,19 @@ In late 2025, Google introduced a specialized reasoning mode that differs from s
 
 # Activity 2: The Historical "Red-Team" (20 Min)
 
+<image src="./google-search-grounding.png" width=600 />
+
 ## Table Activity
 
 - **Task**: "Red-teaming" is the process of intentionally trying to break or find flaws in a system. You will use a **Thinking-enabled agent** to critique the CSV file you created in Activity 1.
 - **Procedure**:
-  1. **Go to Playground section of AI Studio**: See screenshot below.
+  1. **Go to Playground section of AI Studio**: See screenshot above.
   2. **Input Your CSV**: Provide the agent with the computational dataset CSV you created in Activity 1.
   3. **The Prompt**: "You are a skeptical historical auditor. Using the highest thinking level, review this data. Identify any extracted dates, locations, or units that seem historically improbable based on the context of the Vietnam War. Point out potential hallucinations."
   4. **The Goal**: Find at least two instances where the agent over-generalized or misattributed a fact.
   5. **Systematic Grounding**: Verification is not just about "thinking"; it’s about checking the source. We will use the **Grounding with Google Search** tool alongside our local Vietnam War corpus.
      - **Integrated Grounding**: In Gemini 3, the model can now perform real-time searches to verify "world knowledge" (like the date of the Tet Offensive) against the specific, private documents in your archive.
      - **Exercise**: Pick a controversial event from your archive. Ask the Thinking model: "_Compare [Document A]'s account of this event with the consensus of modern scholarship found via Google Search. Where are the significant discrepancies?_"
-
-<image src="./google-search-grounding.png" width=600 />
 
 # Activity 3: Geospatial Referencing and Comparison (25 Min)
 
