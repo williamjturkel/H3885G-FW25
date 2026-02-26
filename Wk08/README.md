@@ -29,7 +29,7 @@ Following the break, we integrate our findings into a unified workspace to begin
 - Task: The new A03 teams must define the **three new properties** they will use to computationally annotate the existing A02 JSON dataset. You and your team will settle on these properties outside of class, but this activity gives you a chance to get started on the problem and discuss with people at your table.
 
 - **Procedure** (In-Class Table):
-  1. **Analyze A02 Data**: Review a sample of the structured data (JSON) created for A02. What's missing?
+  1. **Analyze A02 Data**: Review a sample of the structured data (JSON) created for A02. (These files are available in the Class Data Pool.) What's missing?
   2. **Define Rules**: Create rules for three new, qualitative, but quantifiable annotations relevant to the Vietnam War domain (e.g., `Propaganda_Intensity_Score (1-10)`, `Primary_Conflict_Actor`, `Source_Bias_Classification`).
   3. **Draft System Instruction**: Individually draft the _exact_ instruction the **Custom Annotation Persona** will need: "You are the specialist [Persona Name]. Your sole task is to analyze text input and output the three following fields: [Property 1], [Property 2], [Property 3]. Base your output only on the provided text."
 - **Deliverable (Individual)**: The final 3-property Annotation Schema and the Persona's complete System Instruction draft.
@@ -58,7 +58,7 @@ Following the break, we integrate our findings into a unified workspace to begin
 ## Table Activity: Creating the Regeneration Prompt
 
 - **Task**: Draft the **complete A03 Master Prompt** that the A03 team will use to **regenerate** the A03 Annotation Portal. Again, you will do this with your A03 team but this gives you a chance to get started and discuss with people at your table.
-- **Context**: You have the finalized **A02 Master Prompt Text** (from previous weeks) and a working Annotation Logic (Activity 2). You need to merge them.
+- **Context**: You have the finalized **A02 Master Prompt Text** (from previous weeks) and a working Annotation Logic (Activity 2). You need to merge them. All A02 Master Prompt Text files are available in the Class Data Pool.
 - **Procedure**:
   1. **Start with A02 Text**: Take the finalized **A02 Master Prompt Text** (the one that generated the UI) as your starting document.
   2. **Merge and Replace**: Edit the A02 prompt text to:
